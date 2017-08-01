@@ -1,0 +1,3175 @@
+***************
+Version 2.08
+***************
+
+CHANGE LOG
+=====================
+- Change : All landing pages combine into one folder
+- Other bug fixes and improvement in code
+
+FILES CHANGED
+=====================
+	/All-components/js/rgen.js
+	/builder/index.php
+	/builder/elements/js/rgen.js
+	/builder/js/builder.js
+	/builder/rgen/admin/template/directive/rgen_styling.html
+	/builder/rgen/js/rgen.js
+	/builder/rgen/minify/rgen_lib.js
+	/builder/rgen/minify/rgen_min.js
+	/builder/rgen/partials/footer.php
+
+FILES ADDED
+=====================
+	All landing pages combine into one folder
+
+
+
+***************
+Version 2.07
+***************
+
+CHANGE LOG
+=====================
+- Fixed : App 11 landing page design issue in small screen
+- Other bug fixes and improvement in code
+
+FILES CHANGED
+=====================
+	40-app11/css/responsive.css
+
+FILES ADDED
+=====================
+	--
+
+
+***************
+Version 2.06
+***************
+
+CHANGE LOG
+=====================
+- Fixed : Content replicating issues
+- Other bug fixes and improvement in code
+
+FILES CHANGED
+=====================
+	builder/js/builder.js
+
+FILES ADDED
+=====================
+	--
+
+
+***************
+Version 2.05
+***************
+
+CHANGE LOG
+=====================
+- Fixed : IE 11 issues
+- Other bug fixes and improvement in code
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php
+	\All-components\css\main.css
+	\All-components\js\rgen.js
+	\All-components\minify\rgen_min.css
+	\All-components\minify\rgen_min.js
+
+	\builder\elements\intro-44.php
+	\builder\elements\css\main.css
+	\builder\elements\js\rgen.js
+	\builder\elements\minify\rgen_min.css
+	\builder\elements\minify\rgen_min.js
+
+FILES ADDED
+=====================
+	--
+
+
+***************
+Version 2.04
+***************
+
+CHANGE LOG
+=====================
+- New : App landing page with builder design blocks
+- Added : Animation options in builder
+- Fixed : Multiple page linking issue
+- Removed : Instagram gallery blocks
+- Other bug fixes and improvement in code
+
+FILES CHANGED
+=====================
+	/All-components/02-intros.php
+	/All-components/03-sliders.php
+	/All-components/04-features.php
+	/All-components/05-content.php
+	/All-components/06-other-sections.php
+	/All-components/07-forms.php
+	/All-components/09-calltoaction.php
+	/All-components/13-testimonials.php
+	/All-components/15-price.php
+	/All-components/21-social.php
+	/All-components/css/animate.css
+	/All-components/css/helper.css
+	/All-components/css/main.css
+	/All-components/css/responsive.css
+	/All-components/js/plugins.js
+	/All-components/js/rgen.js
+	/All-components/lib/font-awesome/css/font-awesome.css
+	/All-components/lib/font-awesome/css/font-awesome.min.css
+	/All-components/lib/font-awesome/fonts/fontawesome-webfont.eot
+	/All-components/lib/font-awesome/fonts/fontawesome-webfont.svg
+	/All-components/lib/font-awesome/fonts/fontawesome-webfont.ttf
+	/All-components/lib/font-awesome/fonts/fontawesome-webfont.woff
+	/All-components/lib/font-awesome/fonts/fontawesome-webfont.woff2
+	/All-components/lib/font-awesome/fonts/FontAwesome.otf
+	/All-components/minify/rgen_min.css
+	/All-components/minify/rgen_min.js
+	/Builder_new/builder/builder.php
+	/Builder_new/builder/elements.json
+	/Builder_new/builder/css/rgen-builder-edit.css
+	/Builder_new/builder/elements/css/animate.css
+	/Builder_new/builder/elements/css/helper.css
+	/Builder_new/builder/elements/css/main.css
+	/Builder_new/builder/elements/css/responsive.css
+	/Builder_new/builder/elements/js/plugins.js
+	/Builder_new/builder/elements/js/rgen.js
+	/Builder_new/builder/elements/lib/font-awesome/css/font-awesome.css
+	/Builder_new/builder/elements/lib/font-awesome/css/font-awesome.min.css
+	/Builder_new/builder/elements/lib/font-awesome/fonts/fontawesome-webfont.eot
+	/Builder_new/builder/elements/lib/font-awesome/fonts/fontawesome-webfont.svg
+	/Builder_new/builder/elements/lib/font-awesome/fonts/fontawesome-webfont.ttf
+	/Builder_new/builder/elements/lib/font-awesome/fonts/fontawesome-webfont.woff
+	/Builder_new/builder/elements/lib/font-awesome/fonts/fontawesome-webfont.woff2
+	/Builder_new/builder/elements/lib/font-awesome/fonts/FontAwesome.otf
+	/Builder_new/builder/elements/minify/rgen_min.css
+	/Builder_new/builder/elements/minify/rgen_min.js
+	/Builder_new/builder/elements/partials/footer.php
+	/Builder_new/builder/elements/partials/header.php
+	/Builder_new/builder/js/builder.js
+	/Builder_new/builder/rgen/css/rgen-custom1.css
+	/Builder_new/builder/rgen/js/rgen.js
+	/Builder_new/builder/rgen/minify/rgen_lib.js
+	/Builder_new/builder/rgen/minify/rgen_min.js
+
+FILES ADDED
+=====================
+	/All-components/images/app-img11.png
+	/All-components/images/app-img12.png
+	/All-components/images/bg26.jpg
+	/All-components/images/iphone-img-01.png
+	/All-components/images/iphone-img-02.png
+	/All-components/images/iphone-img-03.png
+	/All-components/images/watch-img-01.png
+	/All-components/images/watch-screen-01.png
+	/All-components/images/watch-screen-02.png
+	/All-components/images/watch-screen-03.png
+	/All-components/images/watch-screen-04.png
+	/All-components/images/watch-screen-05.png
+	/All-components/images/watch-screen-06.png
+	/All-components/images/watch-screen-07.png
+	/All-components/images/watch-screen-08.png
+	/Builder_new/builder/elements/calltoaction-07.php
+	/Builder_new/builder/elements/content-49.php
+	/Builder_new/builder/elements/content-50.php
+	/Builder_new/builder/elements/content-51.php
+	/Builder_new/builder/elements/features-31.php
+	/Builder_new/builder/elements/form-07.php
+	/Builder_new/builder/elements/intro-46.php
+	/Builder_new/builder/elements/other-29.php
+	/Builder_new/builder/elements/price-15.php
+	/Builder_new/builder/elements/slider-17.php
+	/Builder_new/builder/elements/images/app-img11.png
+	/Builder_new/builder/elements/images/app-img12.png
+	/Builder_new/builder/elements/images/bg26.jpg
+	/Builder_new/builder/elements/images/iphone-img-01.png
+	/Builder_new/builder/elements/images/iphone-img-02.png
+	/Builder_new/builder/elements/images/iphone-img-03.png
+	/Builder_new/builder/elements/images/watch-img-01.png
+	/Builder_new/builder/elements/images/watch-screen-01.png
+	/Builder_new/builder/elements/images/watch-screen-02.png
+	/Builder_new/builder/elements/images/watch-screen-03.png
+	/Builder_new/builder/elements/images/watch-screen-04.png
+	/Builder_new/builder/elements/images/watch-screen-05.png
+	/Builder_new/builder/elements/images/watch-screen-06.png
+	/Builder_new/builder/elements/images/watch-screen-07.png
+	/Builder_new/builder/elements/images/watch-screen-08.png
+	/Builder_new/builder/elements/images/thumbs/calltoaction-07.jpg
+	/Builder_new/builder/elements/images/thumbs/content-49.jpg
+	/Builder_new/builder/elements/images/thumbs/content-50.jpg
+	/Builder_new/builder/elements/images/thumbs/content-51.jpg
+	/Builder_new/builder/elements/images/thumbs/features-31.jpg
+	/Builder_new/builder/elements/images/thumbs/form-07.png
+	/Builder_new/builder/elements/images/thumbs/intro-46.jpg
+	/Builder_new/builder/elements/images/thumbs/other-29.jpg
+	/Builder_new/builder/elements/images/thumbs/price-15.jpg
+	/Builder_new/builder/elements/images/thumbs/slider-17.jpg
+	/Builder_new/builder/elements/images/thumbs/testimonials-22.jpg
+	/Builder_new/builder/rgen/admin/template/directive/rgen_other.html
+	/Landing-pages/40-app11/
+
+***************
+Version 2.03
+***************
+
+CHANGE LOG
+=====================
+- Added : Image upload option directly from builder style editor
+- Fixed : Builder token verification issues
+- Other bug fixes and improvement in code
+
+FILES CHANGED
+=====================
+	/All-components/js/rgen.js
+	/Builder_new/builder/css/style.css
+	/Builder_new/builder/elements/js/rgen.js
+	/Builder_new/builder/js/builder.js
+	/Builder_new/builder/rgen/rgen_factory.php
+	/Builder_new/builder/rgen/admin/template/directive/rgen_onoff.html
+	/Builder_new/builder/rgen/admin/template/directive/rgen_onoff_alone.html
+	/Builder_new/builder/rgen/admin/template/directive/rgen_styling.html
+	/Builder_new/builder/rgen/admin/template/directive/rgen_text.html
+	/Builder_new/builder/rgen/css/rgen-custom1.css
+	/Builder_new/builder/rgen/js/rgen.js
+	/Builder_new/builder/rgen/minify/rgen_lib.js
+	/Builder_new/builder/rgen/minify/rgen_min.js
+
+FILES ADDED
+=====================
+	/Builder_new/builder/rgen/admin/images/switch.png
+	/Builder_new/builder/rgen/admin/template/directive/rgen_imgupload.html
+
+
+***************
+Version 2.02
+***************
+
+CHANGE LOG
+=====================
+- New : Agency landing page added with builder sections
+- Other bug fixes and improvement in code
+
+
+***************
+Version 2.01
+***************
+
+CHANGE LOG
+=====================
+- Added : All demo restore files compatible with new builder 
+- Other bug fixes and improvement in code
+
+
+***************
+Version 2.0
+***************
+
+CHANGE LOG
+=====================
+- New : Completely new builder with new features
+- Other bug fixes and improvement in code
+
+
+***************
+Version 0.25
+***************
+
+CHANGE LOG
+=====================
+- Fixed : Few social sections loading issue
+- Added : Web service page with builder sections
+- Other bug fixes and improvement in code
+
+
+***************
+Version 0.24
+***************
+
+CHANGE LOG
+=====================
+- Fixed : Mailchimp first name field issues
+- Added : Thank you page redirection option on form success
+- New : Extra pages added (About us, 2 FAQs, Login/Register, Thank you page, Contact us) with builder sections  
+- New : Instagram gallery sections added in builder
+- New : Twitter widget sections added in builder
+- Other bug fixes and improvement in code
+
+
+***************
+Version 0.23
+***************
+
+CHANGE LOG
+=====================
+- Fixed : Design issue in few design sections of builder
+- Added : Drop down menu support
+- Other bug fixes and improvement in code
+
+
+***************
+Version 0.22
+***************
+
+CHANGE LOG
+=====================
+- New : Agency landing page added with builder sections
+- Other bug fixes and improvement in code
+
+
+***************
+Version 0.21
+***************
+
+CHANGE LOG
+=====================
+- New : Book landing page added with builder sections
+- Other bug fixes and improvement in code
+
+
+***************
+Version 0.20
+***************
+
+CHANGE LOG
+=====================
+- New : Book landing page added with builder sections
+- Fixed : IE & other few design issues
+- Other bug fixes and improvement in code
+
+
+***************
+Version 0.19
+***************
+
+CHANGE LOG
+=====================
+- New : Campaign Monitor integration
+- New : GetResponse integration
+- New : AWeber integration
+- New : iContact integration
+- New : Constant Contact integration
+- Other bug fixes and improvement in code
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\07-forms.php 
+	\All-components\css\main.css 
+	\All-components\form-data\notify-me.php 
+	\All-components\js\rgen.js 
+	\All-components\minify\rgen_min.css 
+	\Builder\elements\intro-30.php 
+	\Builder\elements\intro-31.php 
+	\Builder\elements\intro-32.php 
+	\Builder\elements\intro-33.php 
+	\Builder\elements\intro-34.php 
+	\Builder\elements\intro-35.php 
+	\Builder\elements\intro-36.php 
+	\Builder\elements\intro-37.php 
+	\Builder\elements\intro-38.php 
+	\Builder\elements\css\main.css 
+	\Builder\elements\form-data\notify-me.php 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\minify\rgen_min.css
+
+FILES & FOLDERS ADDED
+=====================
+	\All-components\form-data\php_wrappers 
+	\All-components\form-data\Az6PfcE2_auth.rgen 
+	\All-components\form-data\config.php 
+	\All-components\form-data\errorlog.txt 
+	\All-components\form-data\php_wrappers\aweber_api 
+	\All-components\form-data\php_wrappers\constantcontact 
+	\All-components\form-data\php_wrappers\CMBase.php 
+	\All-components\form-data\php_wrappers\GetResponseAPI.class.php 
+	\All-components\form-data\php_wrappers\iContactApi.php 
+	\All-components\form-data\php_wrappers\MailChimp.php 
+	\All-components\form-data\php_wrappers\aweber_api\aweber.php 
+	\All-components\form-data\php_wrappers\constantcontact\src 
+	\Builder\elements\form-data\php_wrappers 
+	\Builder\elements\form-data\Az6PfcE2_auth.rgen 
+	\Builder\elements\form-data\config.php 
+	\Builder\elements\form-data\errorlog.txt 
+	\Builder\elements\form-data\php_wrappers\aweber_api 
+	\Builder\elements\form-data\php_wrappers\constantcontact 
+	\Builder\elements\form-data\php_wrappers\CMBase.php 
+	\Builder\elements\form-data\php_wrappers\GetResponseAPI.class.php 
+	\Builder\elements\form-data\php_wrappers\iContactApi.php 
+	\Builder\elements\form-data\php_wrappers\MailChimp.php 
+	\Builder\elements\form-data\php_wrappers\aweber_api\aweber.php 
+	\Builder\elements\form-data\php_wrappers\constantcontact\src
+
+
+***************
+Version 0.18
+***************
+
+CHANGE LOG
+=====================
+- New : Gym landing page with builder sections
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\05-content.php 
+	\All-components\06-other-sections.php 
+	\All-components\09-calltoaction.php 
+	\All-components\16-contact.php 
+	\All-components\20-products.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\plugins.js 
+	\All-components\js\rgen.js 
+	\All-components\minify\rgen_min.css 
+	\All-components\minify\rgen_min.js 
+	\Builder\elements.json 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\plugins.js 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\minify\rgen_min.css 
+	\Builder\elements\minify\rgen_min.js 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\plugins.js 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\01-agency1\minify\rgen_min.css 
+	\Landing-pages\01-agency1\minify\rgen_min.js 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\plugins.js 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\02-agency2\minify\rgen_min.css 
+	\Landing-pages\02-agency2\minify\rgen_min.js 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\plugins.js 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\03-app1\minify\rgen_min.css 
+	\Landing-pages\03-app1\minify\rgen_min.js 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\plugins.js 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\04-app2\minify\rgen_min.css 
+	\Landing-pages\04-app2\minify\rgen_min.js 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\plugins.js 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\05-app3\minify\rgen_min.css 
+	\Landing-pages\05-app3\minify\rgen_min.js 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\plugins.js 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\06-finance1\minify\rgen_min.css 
+	\Landing-pages\06-finance1\minify\rgen_min.js 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\plugins.js 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\07-finance2\minify\rgen_min.css 
+	\Landing-pages\07-finance2\minify\rgen_min.js 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\plugins.js 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\08-medical1\minify\rgen_min.css 
+	\Landing-pages\08-medical1\minify\rgen_min.js 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\plugins.js 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\09-medical2\minify\rgen_min.css 
+	\Landing-pages\09-medical2\minify\rgen_min.js 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\plugins.js 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\10-restaurant1\minify\rgen_min.css 
+	\Landing-pages\10-restaurant1\minify\rgen_min.js 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\plugins.js 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\11-restaurant2\minify\rgen_min.css 
+	\Landing-pages\11-restaurant2\minify\rgen_min.js 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\plugins.js 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\12-webservice1\minify\rgen_min.css 
+	\Landing-pages\12-webservice1\minify\rgen_min.js 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\plugins.js 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\13-webservice2\minify\rgen_min.css 
+	\Landing-pages\13-webservice2\minify\rgen_min.js 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\plugins.js 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\14-ecommerce1\minify\rgen_min.css 
+	\Landing-pages\14-ecommerce1\minify\rgen_min.js 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\plugins.js 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\15-travel1\minify\rgen_min.css 
+	\Landing-pages\15-travel1\minify\rgen_min.js 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\js\plugins.js 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\16-yoga1\minify\rgen_min.css 
+	\Landing-pages\16-yoga1\minify\rgen_min.js 
+	\Landing-pages\17-yoga2\css\helper.css 
+	\Landing-pages\17-yoga2\css\main.css 
+	\Landing-pages\17-yoga2\css\responsive.css 
+	\Landing-pages\17-yoga2\js\plugins.js 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\17-yoga2\minify\rgen_min.css 
+	\Landing-pages\17-yoga2\minify\rgen_min.js 
+	\Landing-pages\18-car-rental1\css\helper.css 
+	\Landing-pages\18-car-rental1\css\main.css 
+	\Landing-pages\18-car-rental1\css\responsive.css 
+	\Landing-pages\18-car-rental1\js\plugins.js 
+	\Landing-pages\18-car-rental1\js\rgen.js 
+	\Landing-pages\18-car-rental1\minify\rgen_min.css 
+	\Landing-pages\18-car-rental1\minify\rgen_min.js 
+	\Landing-pages\19-realestate1\css\helper.css 
+	\Landing-pages\19-realestate1\css\main.css 
+	\Landing-pages\19-realestate1\css\responsive.css 
+	\Landing-pages\19-realestate1\js\plugins.js 
+	\Landing-pages\19-realestate1\js\rgen.js 
+	\Landing-pages\19-realestate1\minify\rgen_min.css 
+	\Landing-pages\19-realestate1\minify\rgen_min.js 
+	\Landing-pages\20-realestate2\css\helper.css 
+	\Landing-pages\20-realestate2\css\main.css 
+	\Landing-pages\20-realestate2\css\responsive.css 
+	\Landing-pages\20-realestate2\js\plugins.js 
+	\Landing-pages\20-realestate2\js\rgen.js 
+	\Landing-pages\20-realestate2\minify\rgen_min.css 
+	\Landing-pages\20-realestate2\minify\rgen_min.js 
+	\Landing-pages\21-partyevent1\css\helper.css 
+	\Landing-pages\21-partyevent1\css\main.css 
+	\Landing-pages\21-partyevent1\css\responsive.css 
+	\Landing-pages\21-partyevent1\js\plugins.js 
+	\Landing-pages\21-partyevent1\js\rgen.js 
+	\Landing-pages\21-partyevent1\minify\rgen_min.css 
+	\Landing-pages\21-partyevent1\minify\rgen_min.js 
+	\Landing-pages\22-partyevent2\css\helper.css 
+	\Landing-pages\22-partyevent2\css\main.css 
+	\Landing-pages\22-partyevent2\css\responsive.css 
+	\Landing-pages\22-partyevent2\js\plugins.js 
+	\Landing-pages\22-partyevent2\js\rgen.js 
+	\Landing-pages\22-partyevent2\minify\rgen_min.css 
+	\Landing-pages\22-partyevent2\minify\rgen_min.js 
+	\Landing-pages\23-comingsoon1\css\helper.css 
+	\Landing-pages\23-comingsoon1\css\main.css 
+	\Landing-pages\23-comingsoon1\css\responsive.css 
+	\Landing-pages\23-comingsoon1\js\plugins.js 
+	\Landing-pages\23-comingsoon1\js\rgen.js 
+	\Landing-pages\23-comingsoon1\minify\rgen_min.css 
+	\Landing-pages\23-comingsoon1\minify\rgen_min.js 
+	\Landing-pages\24-business1\css\helper.css 
+	\Landing-pages\24-business1\css\main.css 
+	\Landing-pages\24-business1\css\responsive.css 
+	\Landing-pages\24-business1\js\plugins.js 
+	\Landing-pages\24-business1\js\rgen.js 
+	\Landing-pages\24-business1\minify\rgen_min.css 
+	\Landing-pages\24-business1\minify\rgen_min.js 
+	\Landing-pages\25-business2\index.html 
+	\Landing-pages\25-business2\css\helper.css 
+	\Landing-pages\25-business2\css\main.css 
+	\Landing-pages\25-business2\css\responsive.css 
+	\Landing-pages\25-business2\js\plugins.js 
+	\Landing-pages\25-business2\js\rgen.js 
+	\Landing-pages\25-business2\minify\rgen_min.css 
+	\Landing-pages\25-business2\minify\rgen_min.js 
+	\Landing-pages\26-construction1\css\helper.css 
+	\Landing-pages\26-construction1\css\main.css 
+	\Landing-pages\26-construction1\css\responsive.css 
+	\Landing-pages\26-construction1\js\plugins.js 
+	\Landing-pages\26-construction1\js\rgen.js 
+	\Landing-pages\26-construction1\minify\rgen_min.css 
+	\Landing-pages\26-construction1\minify\rgen_min.js 
+	\Landing-pages\27-app4\css\helper.css 
+	\Landing-pages\27-app4\css\main.css 
+	\Landing-pages\27-app4\css\responsive.css 
+	\Landing-pages\27-app4\js\plugins.js 
+	\Landing-pages\27-app4\js\rgen.js 
+	\Landing-pages\27-app4\minify\rgen_min.css 
+	\Landing-pages\27-app4\minify\rgen_min.js 
+	\Landing-pages\28-app5\css\helper.css 
+	\Landing-pages\28-app5\css\main.css 
+	\Landing-pages\28-app5\css\responsive.css 
+	\Landing-pages\28-app5\js\plugins.js 
+	\Landing-pages\28-app5\js\rgen.js 
+	\Landing-pages\28-app5\minify\rgen_min.css 
+	\Landing-pages\28-app5\minify\rgen_min.js 
+	\Landing-pages\29-app6\css\helper.css 
+	\Landing-pages\29-app6\css\main.css 
+	\Landing-pages\29-app6\css\responsive.css 
+	\Landing-pages\29-app6\js\plugins.js 
+	\Landing-pages\29-app6\js\rgen.js 
+	\Landing-pages\29-app6\minify\rgen_min.css 
+	\Landing-pages\29-app6\minify\rgen_min.js 
+	\Landing-pages\30-app7\css\helper.css 
+	\Landing-pages\30-app7\css\main.css 
+	\Landing-pages\30-app7\css\responsive.css 
+	\Landing-pages\30-app7\js\plugins.js 
+	\Landing-pages\30-app7\js\rgen.js 
+	\Landing-pages\30-app7\minify\rgen_min.css 
+	\Landing-pages\30-app7\minify\rgen_min.js 
+	\Landing-pages\31-app8\css\helper.css 
+	\Landing-pages\31-app8\css\main.css 
+	\Landing-pages\31-app8\css\responsive.css 
+	\Landing-pages\31-app8\js\plugins.js 
+	\Landing-pages\31-app8\js\rgen.js 
+	\Landing-pages\31-app8\minify\rgen_min.css 
+	\Landing-pages\31-app8\minify\rgen_min.js 
+	\Landing-pages\32-app9\css\helper.css 
+	\Landing-pages\32-app9\css\main.css 
+	\Landing-pages\32-app9\css\responsive.css 
+	\Landing-pages\32-app9\js\plugins.js 
+	\Landing-pages\32-app9\js\rgen.js 
+	\Landing-pages\32-app9\minify\rgen_min.css 
+	\Landing-pages\32-app9\minify\rgen_min.js 
+	\Landing-pages\33-app10\css\helper.css 
+	\Landing-pages\33-app10\css\main.css 
+	\Landing-pages\33-app10\css\responsive.css 
+	\Landing-pages\33-app10\js\plugins.js 
+	\Landing-pages\33-app10\js\rgen.js 
+	\Landing-pages\33-app10\minify\rgen_min.css 
+	\Landing-pages\33-app10\minify\rgen_min.js
+	
+
+FILES ADDED
+=====================
+	\All-components\images\gym-bg1.jpg 
+	\All-components\images\gym-program_small1.jpg 
+	\All-components\images\gym-program_small2.jpg 
+	\All-components\images\gym-program_small3.jpg 
+	\All-components\images\gym_800x600_01.jpg 
+	\All-components\images\gym_800x600_02.jpg 
+	\All-components\images\gym_800x600_03.jpg 
+	\All-components\images\gym_800x600_04.jpg 
+	\All-components\images\gym_800x600_05.jpg 
+	\All-components\images\gym_800x600_06.jpg 
+	\All-components\images\gym_800x600_07.jpg 
+	\All-components\images\gym_800x600_08.jpg 
+	\All-components\images\gym_bg-img1.jpg 
+	\All-components\images\gym_intro.jpg 
+	\Builder\elements\images\thumbs\calltoaction-05.jpg 
+	\Builder\elements\images\thumbs\content-38.jpg 
+	\Builder\elements\images\thumbs\intro-40.jpg 
+	\Builder\elements\images\thumbs\other-23.jpg 
+	\Builder\elements\images\thumbs\products-08.jpg 
+	\Builder\elements\images\gym-bg1.jpg 
+	\Builder\elements\images\gym-program_small1.jpg 
+	\Builder\elements\images\gym-program_small2.jpg 
+	\Builder\elements\images\gym-program_small3.jpg 
+	\Builder\elements\images\gym_800x600_01.jpg 
+	\Builder\elements\images\gym_800x600_02.jpg 
+	\Builder\elements\images\gym_800x600_03.jpg 
+	\Builder\elements\images\gym_800x600_04.jpg 
+	\Builder\elements\images\gym_800x600_05.jpg 
+	\Builder\elements\images\gym_800x600_06.jpg 
+	\Builder\elements\images\gym_800x600_07.jpg 
+	\Builder\elements\images\gym_800x600_08.jpg 
+	\Builder\elements\images\gym_bg-img1.jpg 
+	\Builder\elements\images\gym_intro.jpg 
+	\Builder\elements\calltoaction-05.php 
+	\Builder\elements\content-38.php 
+	\Builder\elements\intro-40.php 
+	\Builder\elements\other-23.php 
+	\Builder\elements\products-08.php 
+	\Landing-pages\34-gym1\
+
+
+***************
+Version 0.17
+***************
+
+CHANGE LOG
+=====================
+- New : All demo restore files included to load demos inside builder
+- Other bug fixes and improvement in code
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\js\rgen.js 
+	\Builder\elements.json 
+	\Builder\elements\banners-01.php 
+	\Builder\elements\content-28.php 
+	\Builder\elements\form-03.php 
+	\Builder\elements\intro-02.php 
+	\Builder\elements\intro-06.php 
+	\Builder\elements\intro-07.php 
+	\Builder\elements\intro-08.php 
+	\Builder\elements\intro-09.php 
+	\Builder\elements\intro-10.php 
+	\Builder\elements\intro-11.php 
+	\Builder\elements\intro-12.php 
+	\Builder\elements\intro-13.php 
+	\Builder\elements\intro-14.php 
+	\Builder\elements\intro-15.php 
+	\Builder\elements\intro-16.php 
+	\Builder\elements\intro-17.php 
+	\Builder\elements\intro-18.php 
+	\Builder\elements\intro-19.php 
+	\Builder\elements\other-01.php 
+	\Builder\elements\other-02.php 
+	\Builder\elements\other-03.php 
+	\Builder\elements\other-04.php 
+	\Builder\elements\other-05.php 
+	\Builder\elements\other-06.php 
+	\Builder\elements\other-07.php 
+	\Builder\elements\other-08.php 
+	\Builder\elements\other-11.php 
+	\Builder\elements\other-12.php 
+	\Builder\elements\other-13.php 
+	\Builder\elements\other-14.php 
+	\Builder\elements\other-15.php 
+	\Builder\elements\other-16.php 
+	\Builder\elements\other-17.php 
+	\Builder\elements\other-18.php 
+	\Builder\elements\other-19.php 
+	\Builder\elements\price-04.php 
+	\Builder\elements\products-02.php 
+	\Builder\elements\products-04.php 
+	\Builder\elements\products-06.php 
+	\Builder\elements\products-07.php 
+	\Builder\elements\slider-01.php 
+	\Builder\elements\slider-02.php 
+	\Builder\elements\slider-03.php 
+	\Builder\elements\slider-04.php 
+	\Builder\elements\slider-05.php 
+	\Builder\elements\slider-06.php 
+	\Builder\elements\slider-07.php 
+	\Builder\elements\slider-08.php 
+	\Builder\elements\slider-09.php 
+	\Builder\elements\slider-10.php 
+	\Builder\elements\slider-11.php 
+	\Builder\elements\slider-12.php 
+	\Builder\elements\slider-13.php 
+	\Builder\elements\slider-14.php 
+	\Builder\elements\team-01.php 
+	\Builder\elements\team-02.php 
+	\Builder\elements\team-03.php 
+	\Builder\elements\testimonials-01.php 
+	\Builder\elements\testimonials-02.php 
+	\Builder\elements\testimonials-03.php 
+	\Builder\elements\testimonials-04.php 
+	\Builder\elements\testimonials-05.php 
+	\Builder\elements\testimonials-06.php 
+	\Builder\elements\testimonials-07.php 
+	\Builder\elements\testimonials-08.php 
+	\Builder\elements\testimonials-09.php 
+	\Builder\elements\testimonials-10.php 
+	\Builder\elements\testimonials-11.php 
+	\Builder\elements\testimonials-12.php 
+	\Builder\elements\testimonials-13.php 
+	\Builder\elements\testimonials-14.php 
+	\Builder\elements\testimonials-15.php 
+	\Builder\elements\testimonials-16.php 
+	\Builder\elements\video-01.php 
+	\Builder\elements\video-02.php 
+	\Builder\elements\video-03.php 
+	\Builder\elements\video-04.php 
+	\Builder\elements\video-05.php 
+	\Builder\elements\video-06.php 
+	\Builder\elements\video-07.php 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\partials\footer.php 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\index.html 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\18-car-rental1\js\rgen.js 
+	\Landing-pages\19-realestate1\js\rgen.js 
+	\Landing-pages\20-realestate2\js\rgen.js 
+	\Landing-pages\21-partyevent1\js\rgen.js 
+	\Landing-pages\22-partyevent2\index.html 
+	\Landing-pages\22-partyevent2\js\rgen.js 
+	\Landing-pages\23-comingsoon1\js\rgen.js 
+	\Landing-pages\24-business1\js\rgen.js 
+	\Landing-pages\25-business2\js\rgen.js 
+	\Landing-pages\26-construction1\js\rgen.js 
+	\Landing-pages\27-app4\js\rgen.js 
+	\Landing-pages\28-app5\js\rgen.js 
+	\Landing-pages\29-app6\js\rgen.js 
+	\Landing-pages\30-app7\js\rgen.js 
+	\Landing-pages\31-app8\js\rgen.js 
+	\Landing-pages\32-app9\js\rgen.js 
+	\Landing-pages\33-app10\js\rgen.js
+	
+
+FILES ADDED
+=====================
+	\Builder\elements\intro-39.php 
+	\Builder\elements\images\thumbs\intro-39.jpg 
+	\Restore-demos\01-agency1.rgen 
+	\Restore-demos\02-agency2.rgen 
+	\Restore-demos\03-app1.rgen 
+	\Restore-demos\04-app2.rgen 
+	\Restore-demos\05-app3.rgen 
+	\Restore-demos\06-finance1.rgen 
+	\Restore-demos\07-finance2.rgen 
+	\Restore-demos\08-medical1.rgen 
+	\Restore-demos\09-medical2.rgen 
+	\Restore-demos\10-restaurant1.rgen 
+	\Restore-demos\11-restaurant2.rgen 
+	\Restore-demos\12-webservice1.rgen 
+	\Restore-demos\13-webservice2.rgen 
+	\Restore-demos\14-ecommerce1.rgen 
+	\Restore-demos\15-travel1.rgen 
+	\Restore-demos\16-yoga1.rgen 
+	\Restore-demos\17-yoga2.rgen 
+	\Restore-demos\18-car-rental1.rgen 
+	\Restore-demos\19-realestate1.rgen 
+	\Restore-demos\20-realestate2.rgen 
+	\Restore-demos\21-partyevent1.rgen 
+	\Restore-demos\22-partyevent2.rgen 
+	\Restore-demos\23-comingsoon1.rgen 
+	\Restore-demos\24-business1.rgen 
+	\Restore-demos\25-business2.rgen 
+	\Restore-demos\26-construction1.rgen 
+	\Restore-demos\27-app4.rgen 
+	\Restore-demos\28-app5.rgen 
+	\Restore-demos\29-app6.rgen 
+	\Restore-demos\30-app7.rgen 
+	\Restore-demos\31-app8.rgen 
+	\Restore-demos\32-app9.rgen 
+	\Restore-demos\33-app10.rgen
+
+
+***************
+Version 0.16
+***************
+
+CHANGE LOG
+=====================
+- New : 7 App landing page with builder sections
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\04-features.php 
+	\All-components\05-content.php 
+	\All-components\07-forms.php 
+	\All-components\12-videos.php 
+	\All-components\13-testimonials.php 
+	\All-components\15-price.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\rgen.js 
+	\All-components\minify\rgen_min.css 
+	\Builder\elements.json 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\minify\rgen_min.css 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\01-agency1\minify\rgen_min.css 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\02-agency2\minify\rgen_min.css 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\03-app1\minify\rgen_min.css 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\04-app2\minify\rgen_min.css 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\05-app3\minify\rgen_min.css 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\06-finance1\minify\rgen_min.css 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\07-finance2\minify\rgen_min.css 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\08-medical1\minify\rgen_min.css 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\09-medical2\minify\rgen_min.css 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\10-restaurant1\minify\rgen_min.css 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\11-restaurant2\minify\rgen_min.css 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\12-webservice1\minify\rgen_min.css 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\13-webservice2\minify\rgen_min.css 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\14-ecommerce1\minify\rgen_min.css 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\15-travel1\minify\rgen_min.css 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\16-yoga1\minify\rgen_min.css 
+	\Landing-pages\17-yoga2\css\helper.css 
+	\Landing-pages\17-yoga2\css\main.css 
+	\Landing-pages\17-yoga2\css\responsive.css 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\17-yoga2\minify\rgen_min.css 
+	\Landing-pages\18-car-rental1\css\helper.css 
+	\Landing-pages\18-car-rental1\css\main.css 
+	\Landing-pages\18-car-rental1\css\responsive.css 
+	\Landing-pages\18-car-rental1\js\rgen.js 
+	\Landing-pages\18-car-rental1\minify\rgen_min.css 
+	\Landing-pages\19-realestate1\css\helper.css 
+	\Landing-pages\19-realestate1\css\main.css 
+	\Landing-pages\19-realestate1\css\responsive.css 
+	\Landing-pages\19-realestate1\js\rgen.js 
+	\Landing-pages\19-realestate1\minify\rgen_min.css 
+	\Landing-pages\20-realestate2\css\helper.css 
+	\Landing-pages\20-realestate2\css\main.css 
+	\Landing-pages\20-realestate2\css\responsive.css 
+	\Landing-pages\20-realestate2\js\rgen.js 
+	\Landing-pages\20-realestate2\minify\rgen_min.css 
+	\Landing-pages\21-partyevent1\css\helper.css 
+	\Landing-pages\21-partyevent1\css\main.css 
+	\Landing-pages\21-partyevent1\css\responsive.css 
+	\Landing-pages\21-partyevent1\js\rgen.js 
+	\Landing-pages\21-partyevent1\minify\rgen_min.css 
+	\Landing-pages\22-partyevent2\css\helper.css 
+	\Landing-pages\22-partyevent2\css\main.css 
+	\Landing-pages\22-partyevent2\css\responsive.css 
+	\Landing-pages\22-partyevent2\js\rgen.js 
+	\Landing-pages\22-partyevent2\minify\rgen_min.css 
+	\Landing-pages\23-comingsoon1\css\helper.css 
+	\Landing-pages\23-comingsoon1\css\main.css 
+	\Landing-pages\23-comingsoon1\css\responsive.css 
+	\Landing-pages\23-comingsoon1\js\rgen.js 
+	\Landing-pages\23-comingsoon1\minify\rgen_min.css 
+	\Landing-pages\24-business1\css\helper.css 
+	\Landing-pages\24-business1\css\main.css 
+	\Landing-pages\24-business1\css\responsive.css 
+	\Landing-pages\24-business1\js\rgen.js 
+	\Landing-pages\24-business1\minify\rgen_min.css 
+	\Landing-pages\25-business2\css\helper.css 
+	\Landing-pages\25-business2\css\main.css 
+	\Landing-pages\25-business2\css\responsive.css 
+	\Landing-pages\25-business2\js\rgen.js 
+	\Landing-pages\25-business2\minify\rgen_min.css 
+	\Landing-pages\26-construction1\css\helper.css 
+	\Landing-pages\26-construction1\css\main.css 
+	\Landing-pages\26-construction1\css\responsive.css 
+	\Landing-pages\26-construction1\js\rgen.js 
+	\Landing-pages\26-construction1\minify\rgen_min.css
+	
+
+FILES ADDED
+=====================
+	\All-components\images\appintro_slide1.jpg 
+	\All-components\images\appintro_slide2.jpg 
+	\All-components\images\appintro_slide3.jpg 
+	\All-components\images\appintro_slide4.jpg 
+	\All-components\images\appintro_slide5.jpg 
+	\All-components\images\appintro_slide6.jpg 
+	\All-components\images\iphone-slides_01.png 
+	\All-components\images\iphone-slides_02.png 
+	\All-components\images\iphone-slides_03.png 
+	\All-components\images\iphone-slides_04.png 
+	\All-components\images\iphone-slides_05.png 
+	\All-components\images\iphone-slides_06.png 
+	\Builder\elements\content-34.php 
+	\Builder\elements\content-35.php 
+	\Builder\elements\content-36.php 
+	\Builder\elements\content-37.php 
+	\Builder\elements\features-25.php 
+	\Builder\elements\features-26.php 
+	\Builder\elements\features-27.php 
+	\Builder\elements\features-28.php 
+	\Builder\elements\intro-30.php 
+	\Builder\elements\intro-31.php 
+	\Builder\elements\intro-32.php 
+	\Builder\elements\intro-33.php 
+	\Builder\elements\intro-34.php 
+	\Builder\elements\intro-35.php 
+	\Builder\elements\intro-36.php 
+	\Builder\elements\intro-37.php 
+	\Builder\elements\intro-38.php 
+	\Builder\elements\price-11.php 
+	\Builder\elements\price-12.php 
+	\Builder\elements\price-13.php 
+	\Builder\elements\price-14.php 
+	\Builder\elements\testimonials-17.php 
+	\Builder\elements\testimonials-18.php 
+	\Builder\elements\testimonials-19.php 
+	\Builder\elements\testimonials-20.php 
+	\Builder\elements\video-09.php 
+	\Builder\elements\video-10.php 
+	\Builder\elements\video-11.php 
+	\Builder\elements\video-12.php 
+	\Builder\elements\images\appintro_slide1.jpg 
+	\Builder\elements\images\appintro_slide2.jpg 
+	\Builder\elements\images\appintro_slide3.jpg 
+	\Builder\elements\images\appintro_slide4.jpg 
+	\Builder\elements\images\appintro_slide5.jpg 
+	\Builder\elements\images\appintro_slide6.jpg 
+	\Builder\elements\images\iphone-slides_01.png 
+	\Builder\elements\images\iphone-slides_02.png 
+	\Builder\elements\images\iphone-slides_03.png 
+	\Builder\elements\images\iphone-slides_04.png 
+	\Builder\elements\images\iphone-slides_05.png 
+	\Builder\elements\images\iphone-slides_06.png 
+	\Builder\elements\images\thumbs\content-34.jpg 
+	\Builder\elements\images\thumbs\content-35.jpg 
+	\Builder\elements\images\thumbs\content-36.jpg 
+	\Builder\elements\images\thumbs\content-37.jpg 
+	\Builder\elements\images\thumbs\features-25.jpg 
+	\Builder\elements\images\thumbs\features-26.jpg 
+	\Builder\elements\images\thumbs\features-27.jpg 
+	\Builder\elements\images\thumbs\features-28.jpg 
+	\Builder\elements\images\thumbs\intro-30.jpg 
+	\Builder\elements\images\thumbs\intro-31.jpg 
+	\Builder\elements\images\thumbs\intro-32.jpg 
+	\Builder\elements\images\thumbs\intro-33.jpg 
+	\Builder\elements\images\thumbs\intro-34.jpg 
+	\Builder\elements\images\thumbs\intro-35.jpg 
+	\Builder\elements\images\thumbs\intro-36.jpg 
+	\Builder\elements\images\thumbs\intro-37.jpg 
+	\Builder\elements\images\thumbs\intro-38.jpg 
+	\Builder\elements\images\thumbs\price-11.jpg 
+	\Builder\elements\images\thumbs\price-12.jpg 
+	\Builder\elements\images\thumbs\price-13.jpg 
+	\Builder\elements\images\thumbs\price-14.jpg 
+	\Builder\elements\images\thumbs\testimonials-17.jpg 
+	\Builder\elements\images\thumbs\testimonials-18.jpg 
+	\Builder\elements\images\thumbs\testimonials-19.jpg 
+	\Builder\elements\images\thumbs\testimonials-20.jpg 
+	\Builder\elements\images\thumbs\video-09.jpg 
+	\Builder\elements\images\thumbs\video-10.jpg 
+	\Builder\elements\images\thumbs\video-11.jpg 
+	\Builder\elements\images\thumbs\video-12.jpg 
+	\Landing-pages\27-app4 
+	\Landing-pages\28-app5 
+	\Landing-pages\29-app6 
+	\Landing-pages\30-app7 
+	\Landing-pages\31-app8 
+	\Landing-pages\32-app9 
+	\Landing-pages\33-app10
+
+
+***************
+Version 0.15
+***************
+
+CHANGE LOG
+=====================
+- New : Construction landing page with builder sections
+- Change : Added minify JS and CSS in all landing pages
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\05-content.php 
+	\All-components\11-portfolio.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\rgen.js 
+	\All-components\partials\footer.php 
+	\All-components\partials\header.php 
+	\Builder\elements.json 
+	\Builder\save.php 
+	\Builder\elements\skeleton.html 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\partials\footer.php 
+	\Builder\elements\partials\header.php 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\index.html 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\index.html 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\index.html 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\index.html 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\index.html 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\index.html 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\index.html 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\index.html 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\index.html 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\index.html 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\index.html 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\index.html 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\index.html 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\index.html 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\index.html 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\index.html 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\17-yoga2\index.html 
+	\Landing-pages\17-yoga2\css\helper.css 
+	\Landing-pages\17-yoga2\css\main.css 
+	\Landing-pages\17-yoga2\css\responsive.css 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\18-car-rental1\index.html 
+	\Landing-pages\18-car-rental1\css\helper.css 
+	\Landing-pages\18-car-rental1\css\main.css 
+	\Landing-pages\18-car-rental1\css\responsive.css 
+	\Landing-pages\18-car-rental1\js\rgen.js 
+	\Landing-pages\19-realestate1\index.html 
+	\Landing-pages\19-realestate1\css\helper.css 
+	\Landing-pages\19-realestate1\css\main.css 
+	\Landing-pages\19-realestate1\css\responsive.css 
+	\Landing-pages\19-realestate1\js\rgen.js 
+	\Landing-pages\20-realestate2\index.html 
+	\Landing-pages\20-realestate2\css\helper.css 
+	\Landing-pages\20-realestate2\css\main.css 
+	\Landing-pages\20-realestate2\css\responsive.css 
+	\Landing-pages\20-realestate2\js\rgen.js 
+	\Landing-pages\21-partyevent1\index.html 
+	\Landing-pages\21-partyevent1\css\helper.css 
+	\Landing-pages\21-partyevent1\css\main.css 
+	\Landing-pages\21-partyevent1\css\responsive.css 
+	\Landing-pages\21-partyevent1\js\rgen.js 
+	\Landing-pages\22-partyevent2\index.html 
+	\Landing-pages\22-partyevent2\css\helper.css 
+	\Landing-pages\22-partyevent2\css\main.css 
+	\Landing-pages\22-partyevent2\css\responsive.css 
+	\Landing-pages\22-partyevent2\js\rgen.js 
+	\Landing-pages\23-comingsoon1\index.html 
+	\Landing-pages\23-comingsoon1\css\helper.css 
+	\Landing-pages\23-comingsoon1\css\main.css 
+	\Landing-pages\23-comingsoon1\css\responsive.css 
+	\Landing-pages\23-comingsoon1\js\rgen.js 
+	\Landing-pages\24-business1\index.html 
+	\Landing-pages\24-business1\css\helper.css 
+	\Landing-pages\24-business1\css\main.css 
+	\Landing-pages\24-business1\css\responsive.css 
+	\Landing-pages\24-business1\js\rgen.js 
+	\Landing-pages\25-business2\index.html 
+	\Landing-pages\25-business2\css\helper.css 
+	\Landing-pages\25-business2\css\main.css 
+	\Landing-pages\25-business2\css\responsive.css 
+	\Landing-pages\25-business2\js\rgen.js
+	
+
+FILES ADDED
+=====================
+	\All-components\minify 
+	\All-components\images\construction_800x600_01.jpg 
+	\All-components\images\construction_800x600_02.jpg 
+	\All-components\images\construction_800x600_03.jpg 
+	\All-components\images\construction_800x600_04.jpg 
+	\All-components\images\construction_intro1.jpg 
+	\All-components\minify\rgen_min.css 
+	\All-components\minify\rgen_min.js 
+	\Builder\elements\minify 
+	\Builder\elements\content-32.php 
+	\Builder\elements\content-33.php 
+	\Builder\elements\intro-29.php 
+	\Builder\elements\portfolio-05.php 
+	\Builder\elements\images\construction_800x600_01.jpg 
+	\Builder\elements\images\construction_800x600_02.jpg 
+	\Builder\elements\images\construction_800x600_03.jpg 
+	\Builder\elements\images\construction_800x600_04.jpg 
+	\Builder\elements\images\construction_intro1.jpg 
+	\Builder\elements\images\thumbs\content-32.png 
+	\Builder\elements\images\thumbs\content-33.png 
+	\Builder\elements\images\thumbs\intro-29.jpg 
+	\Builder\elements\images\thumbs\portfolio-05.jpg 
+	\Builder\elements\minify\rgen_min.css 
+	\Builder\elements\minify\rgen_min.js 
+	\Landing-pages\26-construction1
+	\Landing-pages\01-agency1\minify 
+	\Landing-pages\02-agency2\minify 
+	\Landing-pages\03-app1\minify 
+	\Landing-pages\04-app2\minify 
+	\Landing-pages\05-app3\minify 
+	\Landing-pages\06-finance1\minify 
+	\Landing-pages\07-finance2\minify 
+	\Landing-pages\08-medical1\minify 
+	\Landing-pages\09-medical2\minify 
+	\Landing-pages\10-restaurant1\minify 
+	\Landing-pages\11-restaurant2\minify 
+	\Landing-pages\12-webservice1\minify 
+	\Landing-pages\13-webservice2\minify 
+	\Landing-pages\14-ecommerce1\minify 
+	\Landing-pages\15-travel1\minify 
+	\Landing-pages\16-yoga1\minify 
+	\Landing-pages\17-yoga2\minify 
+	\Landing-pages\18-car-rental1\minify 
+	\Landing-pages\19-realestate1\minify 
+	\Landing-pages\20-realestate2\minify 
+	\Landing-pages\21-partyevent1\minify 
+	\Landing-pages\22-partyevent2\minify 
+	\Landing-pages\23-comingsoon1\minify 
+	\Landing-pages\24-business1\minify 
+	\Landing-pages\25-business2\minify 
+	\Landing-pages\26-construction1\minify
+
+
+***************
+Version 0.14
+***************
+
+CHANGE LOG
+=====================
+- New : Another business landing page with builder sections
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\03-sliders.php 
+	\All-components\05-content.php 
+	\All-components\06-other-sections.php 
+	\All-components\18-footer.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\rgen.js 
+	\Builder\elements.json 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\rgen.js 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\17-yoga2\css\helper.css 
+	\Landing-pages\17-yoga2\css\main.css 
+	\Landing-pages\17-yoga2\css\responsive.css 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\18-car-rental1\css\helper.css 
+	\Landing-pages\18-car-rental1\css\main.css 
+	\Landing-pages\18-car-rental1\css\responsive.css 
+	\Landing-pages\18-car-rental1\js\rgen.js 
+	\Landing-pages\19-realestate1\css\helper.css 
+	\Landing-pages\19-realestate1\css\main.css 
+	\Landing-pages\19-realestate1\css\responsive.css 
+	\Landing-pages\19-realestate1\js\rgen.js 
+	\Landing-pages\20-realestate2\css\helper.css 
+	\Landing-pages\20-realestate2\css\main.css 
+	\Landing-pages\20-realestate2\css\responsive.css 
+	\Landing-pages\20-realestate2\js\rgen.js 
+	\Landing-pages\21-partyevent1\css\helper.css 
+	\Landing-pages\21-partyevent1\css\main.css 
+	\Landing-pages\21-partyevent1\css\responsive.css 
+	\Landing-pages\21-partyevent1\js\rgen.js 
+	\Landing-pages\22-partyevent2\css\helper.css 
+	\Landing-pages\22-partyevent2\css\main.css 
+	\Landing-pages\22-partyevent2\css\responsive.css 
+	\Landing-pages\22-partyevent2\js\rgen.js 
+	\Landing-pages\23-comingsoon1\css\helper.css 
+	\Landing-pages\23-comingsoon1\css\main.css 
+	\Landing-pages\23-comingsoon1\css\responsive.css 
+	\Landing-pages\23-comingsoon1\js\rgen.js 
+	\Landing-pages\24-business1\css\helper.css 
+	\Landing-pages\24-business1\css\main.css 
+	\Landing-pages\24-business1\css\responsive.css 
+	\Landing-pages\24-business1\js\rgen.js
+
+FILES ADDED
+=====================
+	\All-components\images\bg20.jpg 
+	\All-components\images\business_intro1.jpg 
+	\Builder\elements\content-31.php 
+	\Builder\elements\footer-12.php 
+	\Builder\elements\intro-28.php 
+	\Builder\elements\other-21.php 
+	\Builder\elements\other-22.php 
+	\Builder\elements\images\bg20.jpg 
+	\Builder\elements\images\business_intro1.jpg 
+	\Builder\elements\images\thumbs\content-31.png 
+	\Builder\elements\images\thumbs\footer-12.png 
+	\Builder\elements\images\thumbs\intro-28.jpg 
+	\Builder\elements\images\thumbs\other-21.jpg 
+	\Builder\elements\images\thumbs\other-22.png 
+	\Landing-pages\25-business2
+
+
+***************
+Version 0.13
+***************
+
+CHANGE LOG
+=====================
+- New : Business landing page with builder sections
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\05-content.php 
+	\All-components\10-counter.php 
+	\All-components\16-contact.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\rgen.js 
+	\Builder\elements.json 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\rgen.js 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\17-yoga2\css\helper.css 
+	\Landing-pages\17-yoga2\css\main.css 
+	\Landing-pages\17-yoga2\css\responsive.css 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\18-car-rental1\css\helper.css 
+	\Landing-pages\18-car-rental1\css\main.css 
+	\Landing-pages\18-car-rental1\css\responsive.css 
+	\Landing-pages\18-car-rental1\js\rgen.js 
+	\Landing-pages\19-realestate1\css\helper.css 
+	\Landing-pages\19-realestate1\css\main.css 
+	\Landing-pages\19-realestate1\css\responsive.css 
+	\Landing-pages\19-realestate1\js\rgen.js 
+	\Landing-pages\20-realestate2\css\helper.css 
+	\Landing-pages\20-realestate2\css\main.css 
+	\Landing-pages\20-realestate2\css\responsive.css 
+	\Landing-pages\20-realestate2\js\rgen.js 
+	\Landing-pages\21-partyevent1\css\helper.css 
+	\Landing-pages\21-partyevent1\css\main.css 
+	\Landing-pages\21-partyevent1\css\responsive.css 
+	\Landing-pages\21-partyevent1\js\rgen.js 
+	\Landing-pages\22-partyevent2\css\helper.css 
+	\Landing-pages\22-partyevent2\css\main.css 
+	\Landing-pages\22-partyevent2\css\responsive.css 
+	\Landing-pages\22-partyevent2\js\rgen.js
+
+FILES ADDED
+=====================
+	\All-components\images\bg18.jpg 
+	\All-components\images\bg19.jpg 
+	\All-components\images\business_intro.jpg 
+	\All-components\images\business_macbook-pro.png 
+	\Builder\elements\contact-07.php 
+	\Builder\elements\content-30.php 
+	\Builder\elements\counter-03.php 
+	\Builder\elements\intro-27.php 
+	\Builder\elements\images\bg18.jpg 
+	\Builder\elements\images\bg19.jpg 
+	\Builder\elements\images\business_intro.jpg 
+	\Builder\elements\images\business_macbook-pro.png 
+	\Builder\elements\images\thumbs\contact-07.jpg 
+	\Builder\elements\images\thumbs\content-30.png 
+	\Builder\elements\images\thumbs\counter-03.jpg 
+	\Builder\elements\images\thumbs\intro-27.jpg 
+	\Landing-pages\23-comingsoon1 
+	\Landing-pages\24-business1
+
+
+***************
+Version 0.12
+***************
+
+CHANGE LOG
+=====================
+- New : Coming soon page added with builder sections
+- Changes : Improvement on Builder export
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\rgen.js 
+	\Builder\elements.json 
+	\Builder\save.php 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\rgen.js 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\17-yoga2\css\helper.css 
+	\Landing-pages\17-yoga2\css\main.css 
+	\Landing-pages\17-yoga2\css\responsive.css 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\18-car-rental1\css\helper.css 
+	\Landing-pages\18-car-rental1\css\main.css 
+	\Landing-pages\18-car-rental1\css\responsive.css 
+	\Landing-pages\18-car-rental1\js\rgen.js 
+	\Landing-pages\19-realestate1\css\helper.css 
+	\Landing-pages\19-realestate1\css\main.css 
+	\Landing-pages\19-realestate1\css\responsive.css 
+	\Landing-pages\19-realestate1\js\rgen.js 
+	\Landing-pages\20-realestate2\css\helper.css 
+	\Landing-pages\20-realestate2\css\main.css 
+	\Landing-pages\20-realestate2\css\responsive.css 
+	\Landing-pages\20-realestate2\js\rgen.js 
+	\Landing-pages\21-partyevent1\css\helper.css 
+	\Landing-pages\21-partyevent1\css\main.css 
+	\Landing-pages\21-partyevent1\css\responsive.css 
+	\Landing-pages\21-partyevent1\js\rgen.js 
+	\Landing-pages\22-partyevent2\css\helper.css 
+	\Landing-pages\22-partyevent2\css\main.css 
+	\Landing-pages\22-partyevent2\css\responsive.css 
+	\Landing-pages\22-partyevent2\js\rgen.js
+
+FILES ADDED
+=====================
+	\All-components\form-data\notify-me1.php 
+	\All-components\images\bg-img7.jpg 
+	\All-components\images\comingsoon_slide01.jpg 
+	\All-components\images\comingsoon_slide02.jpg 
+	\All-components\images\comingsoon_slide03.jpg 
+	\Builder\elements\intro-26.php 
+	\Builder\elements\form-data\notify-me1.php 
+	\Builder\elements\images\bg-img7.jpg 
+	\Builder\elements\images\comingsoon_slide01.jpg 
+	\Builder\elements\images\comingsoon_slide02.jpg 
+	\Builder\elements\images\comingsoon_slide03.jpg 
+	\Builder\elements\images\thumbs\intro-26.jpg
+	\Landing-pages\23-comingsoon
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+***************
+Version 0.11
+***************
+
+CHANGE LOG
+=====================
+- New : Party event landing page added with builder sections
+- New : Christmas celebration event landing page added with builder sections
+- Added : Finance 1 intro added to builder
+- Fixed : Background apply issue in builder
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\06-other-sections.php 
+	\All-components\11-portfolio.php 
+	\All-components\15-price.php 
+	\All-components\18-footer.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\plugins.js 
+	\All-components\js\rgen.js 
+	\Builder\elements.json 
+	\Builder\index.html 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\plugins.js 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\partials\footer.php 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\plugins.js 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\plugins.js 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\plugins.js 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\plugins.js 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\plugins.js 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\plugins.js 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\plugins.js 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\plugins.js 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\plugins.js 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\plugins.js 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\plugins.js 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\plugins.js 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\plugins.js 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\plugins.js 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\plugins.js 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\js\plugins.js 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\17-yoga2\css\helper.css 
+	\Landing-pages\17-yoga2\css\main.css 
+	\Landing-pages\17-yoga2\css\responsive.css 
+	\Landing-pages\17-yoga2\js\plugins.js 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\18-car-rental1\css\helper.css 
+	\Landing-pages\18-car-rental1\css\main.css 
+	\Landing-pages\18-car-rental1\css\responsive.css 
+	\Landing-pages\18-car-rental1\js\plugins.js 
+	\Landing-pages\18-car-rental1\js\rgen.js 
+	\Landing-pages\19-realestate1\css\helper.css 
+	\Landing-pages\19-realestate1\css\main.css 
+	\Landing-pages\19-realestate1\css\responsive.css 
+	\Landing-pages\19-realestate1\js\plugins.js 
+	\Landing-pages\19-realestate1\js\rgen.js 
+	\Landing-pages\20-realestate2\css\helper.css 
+	\Landing-pages\20-realestate2\css\main.css 
+	\Landing-pages\20-realestate2\css\responsive.css 
+	\Landing-pages\20-realestate2\js\plugins.js 
+	\Landing-pages\20-realestate2\js\rgen.js
+
+FILES ADDED
+=====================
+	\All-components\images\800x800_10.jpg 
+	\All-components\images\bg15.png 
+	\All-components\images\bg16.jpg 
+	\All-components\images\bg17.jpg 
+	\All-components\images\party_800x600_01.jpg 
+	\All-components\images\party_800x600_02.jpg 
+	\All-components\images\party_800x600_03.jpg 
+	\All-components\images\party_800x600_04.jpg 
+	\All-components\images\party_800x600_05.jpg 
+	\All-components\images\party_800x600_06.jpg 
+	\All-components\images\party_800x600_07.jpg 
+	\All-components\images\party_800x600_08.jpg 
+	\All-components\images\party_800x600_09.jpg 
+	\All-components\images\party_800x600_10.jpg 
+	\All-components\images\party_800x600_11.jpg 
+	\All-components\images\party_800x600_12.jpg 
+	\All-components\images\party_800x600_13.jpg 
+	\All-components\images\party_800x600_14.jpg 
+	\All-components\images\party_800x600_15.jpg 
+	\All-components\images\party_800x600_16.jpg 
+	\All-components\images\party_intro.jpg 
+	\All-components\images\party_intro1.jpg 
+	\All-components\images\party_intro2.jpg 
+	\Builder\elements\footer-11.php 
+	\Builder\elements\intro-20.php 
+	\Builder\elements\intro-21.php 
+	\Builder\elements\intro-22.php 
+	\Builder\elements\intro-23.php 
+	\Builder\elements\intro-24.php 
+	\Builder\elements\intro-25.php 
+	\Builder\elements\other-20.php 
+	\Builder\elements\portfolio-04.php 
+	\Builder\elements\price-09.php 
+	\Builder\elements\price-10.php 
+	\Builder\elements\images\800x800_10.jpg 
+	\Builder\elements\images\bg15.png 
+	\Builder\elements\images\bg16.jpg 
+	\Builder\elements\images\bg17.jpg 
+	\Builder\elements\images\party_800x600_01.jpg 
+	\Builder\elements\images\party_800x600_02.jpg 
+	\Builder\elements\images\party_800x600_03.jpg 
+	\Builder\elements\images\party_800x600_04.jpg 
+	\Builder\elements\images\party_800x600_05.jpg 
+	\Builder\elements\images\party_800x600_06.jpg 
+	\Builder\elements\images\party_800x600_07.jpg 
+	\Builder\elements\images\party_800x600_08.jpg 
+	\Builder\elements\images\party_800x600_09.jpg 
+	\Builder\elements\images\party_800x600_10.jpg 
+	\Builder\elements\images\party_800x600_11.jpg 
+	\Builder\elements\images\party_800x600_12.jpg 
+	\Builder\elements\images\party_800x600_13.jpg 
+	\Builder\elements\images\party_800x600_14.jpg 
+	\Builder\elements\images\party_800x600_15.jpg 
+	\Builder\elements\images\party_800x600_16.jpg 
+	\Builder\elements\images\party_intro.jpg 
+	\Builder\elements\images\party_intro1.jpg 
+	\Builder\elements\images\party_intro2.jpg 
+	\Builder\elements\images\thumbs\footer-11.png 
+	\Builder\elements\images\thumbs\intro-20.jpg 
+	\Builder\elements\images\thumbs\intro-21.jpg 
+	\Builder\elements\images\thumbs\intro-22.jpg 
+	\Builder\elements\images\thumbs\intro-23.jpg 
+	\Builder\elements\images\thumbs\intro-24.jpg 
+	\Builder\elements\images\thumbs\intro-25.jpg 
+	\Builder\elements\images\thumbs\other-20.jpg 
+	\Builder\elements\images\thumbs\portfolio-04.jpg 
+	\Builder\elements\images\thumbs\price-09.png 
+	\Builder\elements\images\thumbs\price-10.jpg 
+	\Landing-pages\21-partyevent1 
+	\Landing-pages\22-partyevent2
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+***************
+Version 0.10
+***************
+
+CHANGE LOG
+=====================
+- New : Real estate landing page added with builder sections
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\03-sliders.php 
+	\All-components\14-team.php 
+	\All-components\20-products.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\rgen.js 
+	\Builder\elements.json 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\rgen.js 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\17-yoga2\css\helper.css 
+	\Landing-pages\17-yoga2\css\main.css 
+	\Landing-pages\17-yoga2\css\responsive.css 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\18-car-rental1\css\helper.css 
+	\Landing-pages\18-car-rental1\css\main.css 
+	\Landing-pages\18-car-rental1\css\responsive.css 
+	\Landing-pages\18-car-rental1\js\rgen.js 
+	\Landing-pages\19-realestate1\css\helper.css 
+	\Landing-pages\19-realestate1\css\main.css 
+	\Landing-pages\19-realestate1\css\responsive.css 
+	\Landing-pages\19-realestate1\js\rgen.js
+
+FILES ADDED
+=====================
+	\All-components\images\realestate_800x600_07.jpg 
+	\All-components\images\realestate_800x600_08.jpg 
+	\All-components\images\realestate_intro.jpg 
+	\Builder\elements\intro-19.php 
+	\Builder\elements\products-07.php 
+	\Builder\elements\slider-14.php 
+	\Builder\elements\team-03.php 
+	\Builder\elements\images\realestate_800x600_07.jpg 
+	\Builder\elements\images\realestate_800x600_08.jpg 
+	\Builder\elements\images\realestate_intro.jpg 
+	\Builder\elements\images\thumbs\intro-19.jpg 
+	\Builder\elements\images\thumbs\products-07.jpg 
+	\Builder\elements\images\thumbs\slider-14.jpg 
+	\Builder\elements\images\thumbs\team-03.jpg 
+	\Landing-pages\20-realestate2
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+***************
+Version 0.09
+***************
+
+CHANGE LOG
+=====================
+- New : Real estate landing page added with builder sections
+- Fixed : ID applying issue in builder sections
+- Added : Auto tab script to easily generate tabs
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\09-calltoaction.php 
+	\All-components\20-products.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\rgen.js 
+	\Builder\elements.json 
+	\Builder\save.php 
+	\Builder\elements\skeleton.html 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\rgen.js 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\17-yoga2\css\helper.css 
+	\Landing-pages\17-yoga2\css\main.css 
+	\Landing-pages\17-yoga2\css\responsive.css 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\18-car-rental\css\helper.css 
+	\Landing-pages\18-car-rental\css\main.css 
+	\Landing-pages\18-car-rental\css\responsive.css 
+	\Landing-pages\18-car-rental\js\rgen.js
+
+FILES ADDED
+=====================
+	\All-components\images\realestate_800x600_01.jpg 
+	\All-components\images\realestate_800x600_02.jpg 
+	\All-components\images\realestate_800x600_03.jpg 
+	\All-components\images\realestate_800x600_04.jpg 
+	\All-components\images\realestate_800x600_05.jpg 
+	\All-components\images\realestate_800x600_06.jpg 
+	\All-components\images\realestate_slide01.jpg 
+	\All-components\images\realestate_slide02.jpg 
+	\All-components\images\realestate_slide03.jpg 
+	\All-components\images\realestate_slide04.jpg 
+	\Builder\elements\calltoaction-04.php 
+	\Builder\elements\intro-18.php 
+	\Builder\elements\products-06.php 
+	\Builder\elements\images\realestate_800x600_01.jpg 
+	\Builder\elements\images\realestate_800x600_02.jpg 
+	\Builder\elements\images\realestate_800x600_03.jpg 
+	\Builder\elements\images\realestate_800x600_04.jpg 
+	\Builder\elements\images\realestate_800x600_05.jpg 
+	\Builder\elements\images\realestate_800x600_06.jpg 
+	\Builder\elements\images\realestate_slide01.jpg 
+	\Builder\elements\images\realestate_slide02.jpg 
+	\Builder\elements\images\realestate_slide03.jpg 
+	\Builder\elements\images\realestate_slide04.jpg 
+	\Builder\elements\images\thumbs\calltoaction-04.png 
+	\Builder\elements\images\thumbs\intro-18.jpg 
+	\Builder\elements\images\thumbs\products-06.jpg 
+	\Landing-pages\19-realestate
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+***************
+Version 0.08
+***************
+
+CHANGE LOG
+=====================
+- New : Backup / Restore feature added in builder
+- Fixed : Price table content editing issue in builder
+- Fixed : Counter image loading issue in builder
+
+FILES CHANGED
+=====================
+	\All-components\18-footer.php 
+	\All-components\js\plugins.js 
+	\All-components\js\rgen.js 
+	\Builder\elements.json 
+	\Builder\index.html 
+	\Builder\css\rgen-custom.css 
+	\Builder\elements\js\plugins.js 
+	\Builder\elements\js\rgen.js 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\js\plugins.js 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\js\plugins.js 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\js\plugins.js 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\js\plugins.js 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\js\plugins.js 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\js\plugins.js 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\js\plugins.js 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\js\plugins.js 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\js\plugins.js 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\js\plugins.js 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\js\plugins.js 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\js\plugins.js 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\js\plugins.js 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\js\plugins.js 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\js\plugins.js 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\js\plugins.js 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\17-yoga2\js\plugins.js 
+	\Landing-pages\17-yoga2\js\rgen.js 
+	\Landing-pages\18-car-rental\index.html 
+	\Landing-pages\18-car-rental\js\plugins.js 
+	\Landing-pages\18-car-rental\js\rgen.js
+
+FILES ADDED
+=====================
+	\Builder\rgen_utility.php 
+	\Builder\elements\footer-10.php 
+	\Builder\elements\images\thumbs\footer-10.png 
+	\Builder\js\Magnific-Popup 
+	\Builder\js\underscore
+
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+***************
+Version 0.07
+***************
+
+CHANGE LOG
+=====================
+- New : Car rental landing page added with builder sections
+- Change : All form structure change including javascript
+
+FILES CHANGED
+=====================
+	\All-components\02-intros.php 
+	\All-components\07-forms.php 
+	\All-components\12-videos.php 
+	\All-components\16-contact.php 
+	\All-components\20-products.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\plugins.js 
+	\All-components\js\rgen.js 
+	\All-components\partials\footer.php 
+	\All-components\partials\header.php 
+	\Builder\elements.json 
+	\Builder\elements\contact-01.php 
+	\Builder\elements\contact-02.php 
+	\Builder\elements\contact-03.php 
+	\Builder\elements\contact-04.php 
+	\Builder\elements\contact-05.php 
+	\Builder\elements\contact-06.php 
+	\Builder\elements\skeleton.html 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\plugins.js 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\partials\footer.php 
+	\Builder\elements\partials\header.php 
+	\Landing-pages\01-agency1\index.html 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\plugins.js 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\index.html 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\plugins.js 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\index.html 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\plugins.js 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\index.html 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\plugins.js 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\index.html 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\plugins.js 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\index.html 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\plugins.js 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\index.html 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\plugins.js 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\index.html 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\plugins.js 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\index.html 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\plugins.js 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\index.html 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\plugins.js 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\index.html 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\plugins.js 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\index.html 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\plugins.js 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\index.html 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\plugins.js 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\index.html 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\plugins.js 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\index.html 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\plugins.js 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\index.html 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\js\plugins.js 
+	\Landing-pages\16-yoga1\js\rgen.js 
+	\Landing-pages\17-yoga2\index.html 
+	\Landing-pages\17-yoga2\css\helper.css 
+	\Landing-pages\17-yoga2\css\main.css 
+	\Landing-pages\17-yoga2\css\responsive.css 
+	\Landing-pages\17-yoga2\js\plugins.js 
+	\Landing-pages\17-yoga2\js\rgen.js
+
+FILES ADDED
+=====================
+	
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+***************
+Version 0.06
+***************
+
+CHANGE LOG
+=====================
+- New : Another Yoga landing page added with builder sections
+
+FILES CHANGED
+=====================
+    \All-components\02-intros.php 
+	\All-components\06-other-sections.php 
+	\All-components\20-products.php 
+	\All-components\css\helper.css 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\css\rgen-grids.css 
+	\All-components\form-data\formdata.php 
+	\All-components\js\rgen.js 
+	\All-components\partials\header.php 
+	\Builder\elements.json 
+	\Builder\elements\skeleton.html 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\css\rgen-grids.css 
+	\Builder\elements\form-data\formdata.php 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\partials\header.php 
+	\Landing-pages\01-agency1\index.html 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\css\rgen-grids.css 
+	\Landing-pages\01-agency1\form-data\formdata.php 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\index.html 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\css\rgen-grids.css 
+	\Landing-pages\02-agency2\form-data\formdata.php 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\index.html 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\css\rgen-grids.css 
+	\Landing-pages\03-app1\form-data\formdata.php 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\index.html 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\css\rgen-grids.css 
+	\Landing-pages\04-app2\form-data\formdata.php 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\index.html 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\css\rgen-grids.css 
+	\Landing-pages\05-app3\form-data\formdata.php 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\index.html 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\css\rgen-grids.css 
+	\Landing-pages\06-finance1\form-data\formdata.php 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\css\rgen-grids.css 
+	\Landing-pages\07-finance2\form-data\formdata.php 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\index.html 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\css\rgen-grids.css 
+	\Landing-pages\08-medical1\form-data\formdata.php 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\index.html 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\css\rgen-grids.css 
+	\Landing-pages\09-medical2\form-data\formdata.php 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\index.html 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\css\rgen-grids.css 
+	\Landing-pages\10-restaurant1\form-data\formdata.php 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\index.html 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\css\rgen-grids.css 
+	\Landing-pages\11-restaurant2\form-data\formdata.php 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\index.html 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\css\rgen-grids.css 
+	\Landing-pages\12-webservice1\form-data\formdata.php 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\index.html 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\css\rgen-grids.css 
+	\Landing-pages\13-webservice2\form-data\formdata.php 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\index.html 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\css\rgen-grids.css 
+	\Landing-pages\14-ecommerce1\form-data\formdata.php 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\index.html 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\css\rgen-grids.css 
+	\Landing-pages\15-travel1\form-data\formdata.php 
+	\Landing-pages\15-travel1\js\rgen.js 
+	\Landing-pages\16-yoga1\css\helper.css 
+	\Landing-pages\16-yoga1\css\main.css 
+	\Landing-pages\16-yoga1\css\responsive.css 
+	\Landing-pages\16-yoga1\css\rgen-grids.css 
+	\Landing-pages\16-yoga1\form-data\formdata.php 
+	\Landing-pages\16-yoga1\js\rgen.js
+
+FILES ADDED
+=====================
+	\All-components\images\bg13.jpg 
+	\All-components\images\yoga_bg1.jpg 
+	\Builder\elements\intro-16.php 
+	\Builder\elements\other-19.php 
+	\Builder\elements\products-04.php 
+	\Builder\elements\images\bg13.jpg 
+	\Builder\elements\images\yoga_bg1.jpg 
+	\Builder\elements\images\thumbs\intro-16.jpg 
+	\Builder\elements\images\thumbs\other-19.jpg 
+	\Builder\elements\images\thumbs\products-04.jpg 
+	\Landing-pages\17-yoga2
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+***************
+Version 0.05
+***************
+
+CHANGE LOG
+=====================
+- New : Yoga landing page added with builder sections
+
+FILES CHANGED
+=====================
+    \All-components\01-navigation.php 
+	\All-components\02-intros.php 
+	\All-components\05-content.php 
+	\All-components\06-other-sections.php 
+	\All-components\07-forms.php 
+	\All-components\10-counter.php 
+	\All-components\14-team.php 
+	\All-components\18-footer.php 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\js\rgen.js 
+	\All-components\partials\header.php 
+	\Builder\elements.json 
+	\Builder\elements\skeleton.html 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\partials\header.php 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\index.html 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\index.html 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\index.html 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\index.html 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\index.html 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\index.html 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\index.html 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\index.html 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\index.html 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\index.html 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\index.html 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\index.html 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\index.html 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\index.html 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\js\rgen.js 
+	\Landing-pages\15-travel1\index.html 
+	\Landing-pages\15-travel1\css\main.css 
+	\Landing-pages\15-travel1\css\responsive.css 
+	\Landing-pages\15-travel1\js\rgen.js
+
+FILES ADDED
+=====================
+	\All-components\css\helper.css 
+	\All-components\form-data\formdata.php 
+	\All-components\images\bg12.jpg 
+	\All-components\images\yoga_800x600_01.jpg 
+	\All-components\images\yoga_800x600_02.jpg 
+	\All-components\images\yoga_800x600_03.jpg 
+	\All-components\images\yoga_800x600_04.jpg 
+	\All-components\images\yoga_800x600_05.jpg 
+	\All-components\images\yoga_800x600_06.jpg 
+	\All-components\images\yoga_800x600_07.jpg 
+	\All-components\images\yoga_slide01.jpg 
+	\All-components\images\yoga_slide02.jpg 
+	\Builder\elements\content-28.php 
+	\Builder\elements\content-29.php 
+	\Builder\elements\counter-02.php 
+	\Builder\elements\footer-09.php 
+	\Builder\elements\intro-15.php 
+	\Builder\elements\navigation-21.php 
+	\Builder\elements\other-18.php 
+	\Builder\elements\team-02.php 
+	\Builder\elements\css\helper.css 
+	\Builder\elements\form-data\formdata.php 
+	\Builder\elements\images\bg12.jpg 
+	\Builder\elements\images\yoga_800x600_01.jpg 
+	\Builder\elements\images\yoga_800x600_02.jpg 
+	\Builder\elements\images\yoga_800x600_03.jpg 
+	\Builder\elements\images\yoga_800x600_04.jpg 
+	\Builder\elements\images\yoga_800x600_05.jpg 
+	\Builder\elements\images\yoga_800x600_06.jpg 
+	\Builder\elements\images\yoga_800x600_07.jpg 
+	\Builder\elements\images\yoga_slide01.jpg 
+	\Builder\elements\images\yoga_slide02.jpg 
+	\Builder\elements\images\thumbs\content-28.png 
+	\Builder\elements\images\thumbs\content-29.jpg 
+	\Builder\elements\images\thumbs\counter-02.jpg 
+	\Builder\elements\images\thumbs\footer-09.png 
+	\Builder\elements\images\thumbs\intro-15.jpg 
+	\Builder\elements\images\thumbs\navigation-21.png 
+	\Builder\elements\images\thumbs\other-18.jpg 
+	\Builder\elements\images\thumbs\team-02.jpg 
+	\Landing-pages\01-agency1\css\helper.css 
+	\Landing-pages\01-agency1\form-data\formdata.php 
+	\Landing-pages\02-agency2\css\helper.css 
+	\Landing-pages\02-agency2\form-data\formdata.php 
+	\Landing-pages\03-app1\css\helper.css 
+	\Landing-pages\03-app1\form-data\formdata.php 
+	\Landing-pages\04-app2\css\helper.css 
+	\Landing-pages\04-app2\form-data\formdata.php 
+	\Landing-pages\05-app3\css\helper.css 
+	\Landing-pages\05-app3\form-data\formdata.php 
+	\Landing-pages\06-finance1\css\helper.css 
+	\Landing-pages\06-finance1\form-data\formdata.php 
+	\Landing-pages\07-finance2\css\helper.css 
+	\Landing-pages\07-finance2\form-data\formdata.php 
+	\Landing-pages\08-medical1\css\helper.css 
+	\Landing-pages\08-medical1\form-data\formdata.php 
+	\Landing-pages\09-medical2\css\helper.css 
+	\Landing-pages\09-medical2\form-data\formdata.php 
+	\Landing-pages\10-restaurant1\css\helper.css 
+	\Landing-pages\10-restaurant1\form-data\formdata.php 
+	\Landing-pages\11-restaurant2\css\helper.css 
+	\Landing-pages\11-restaurant2\form-data\formdata.php 
+	\Landing-pages\12-webservice1\css\helper.css 
+	\Landing-pages\12-webservice1\form-data\formdata.php 
+	\Landing-pages\13-webservice2\css\helper.css 
+	\Landing-pages\13-webservice2\form-data\formdata.php 
+	\Landing-pages\14-ecommerce1\css\helper.css 
+	\Landing-pages\14-ecommerce1\form-data\formdata.php 
+	\Landing-pages\15-travel1\css\helper.css 
+	\Landing-pages\15-travel1\form-data\formdata.php
+	\Landing-pages\16-yoga1 
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+***************
+Version 0.04
+***************
+
+CHANGE LOG
+=====================
+- New : Travel landing page added with builder sections
+
+FILES CHANGED
+=====================
+    \All-components\01-navigation.php 
+	\All-components\02-intros.php 
+	\All-components\03-sliders.php 
+	\All-components\05-content.php 
+	\All-components\06-other-sections.php 
+	\All-components\18-footer.php 
+	\All-components\20-products.php 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\css\rgen-grids.css 
+	\All-components\js\rgen.js 
+	\All-components\partials\footer.php 
+	\All-components\partials\header.php 
+	\Builder\elements.json 
+	\Builder\elements\skeleton.html 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\css\rgen-grids.css 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\partials\footer.php 
+	\Builder\elements\partials\header.php 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\index.html 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\css\rgen-grids.css 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\index.html 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\css\rgen-grids.css 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\index.html 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\css\rgen-grids.css 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\index.html 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\css\rgen-grids.css 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\index.html 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\css\rgen-grids.css 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\index.html 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\css\rgen-grids.css 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\index.html 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\css\rgen-grids.css 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\index.html 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\css\rgen-grids.css 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\index.html 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\css\rgen-grids.css 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\index.html 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\css\rgen-grids.css 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\index.html 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\css\rgen-grids.css 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\index.html 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\css\rgen-grids.css 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\index.html 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\css\rgen-grids.css 
+	\Landing-pages\13-webservice2\js\rgen.js 
+	\Landing-pages\14-ecommerce1\index.html 
+	\Landing-pages\14-ecommerce1\css\main.css 
+	\Landing-pages\14-ecommerce1\css\responsive.css 
+	\Landing-pages\14-ecommerce1\css\rgen-grids.css 
+	\Landing-pages\14-ecommerce1\js\rgen.js
+
+FILES ADDED
+=====================
+	\All-components\css\custom.css 
+	\All-components\images\travel-slide03.jpg 
+	\All-components\images\travel-slide02.jpg 
+	\All-components\images\travel-slide01.jpg 
+	\All-components\images\travel-bg.jpg 
+	\All-components\images\travel_800x600_10.jpg 
+	\All-components\images\travel_800x600_09.jpg 
+	\All-components\images\travel_800x600_08.jpg 
+	\All-components\images\travel_800x600_07.jpg 
+	\All-components\images\travel_800x600_06.jpg 
+	\All-components\images\travel_800x600_05.jpg 
+	\All-components\images\travel_800x600_04.jpg 
+	\All-components\images\travel_800x600_03.jpg 
+	\All-components\images\travel_800x600_02.jpg 
+	\All-components\images\travel_800x600_01.jpg 
+	\All-components\images\destination_06.jpg 
+	\All-components\images\destination_05.jpg 
+	\All-components\images\destination_04.jpg 
+	\All-components\images\destination_03.jpg 
+	\All-components\images\destination_02.jpg 
+	\All-components\images\destination_01.jpg 
+	\All-components\lib\Swiper 
+	\Builder\elements\slider-13.php 
+	\Builder\elements\products-03.php 
+	\Builder\elements\products-02.php 
+	\Builder\elements\other-17.php 
+	\Builder\elements\navigation-20.php 
+	\Builder\elements\intro-14.php 
+	\Builder\elements\footer-08.php 
+	\Builder\elements\content-27.php 
+	\Builder\elements\css\custom.css 
+	\Builder\elements\images\travel-slide03.jpg 
+	\Builder\elements\images\travel-slide02.jpg 
+	\Builder\elements\images\travel-slide01.jpg 
+	\Builder\elements\images\travel-bg.jpg 
+	\Builder\elements\images\travel_800x600_10.jpg 
+	\Builder\elements\images\travel_800x600_09.jpg 
+	\Builder\elements\images\travel_800x600_08.jpg 
+	\Builder\elements\images\travel_800x600_07.jpg 
+	\Builder\elements\images\travel_800x600_06.jpg 
+	\Builder\elements\images\travel_800x600_05.jpg 
+	\Builder\elements\images\travel_800x600_04.jpg 
+	\Builder\elements\images\travel_800x600_03.jpg 
+	\Builder\elements\images\travel_800x600_02.jpg 
+	\Builder\elements\images\travel_800x600_01.jpg 
+	\Builder\elements\images\destination_06.jpg 
+	\Builder\elements\images\destination_05.jpg 
+	\Builder\elements\images\destination_04.jpg 
+	\Builder\elements\images\destination_03.jpg 
+	\Builder\elements\images\destination_02.jpg 
+	\Builder\elements\images\destination_01.jpg 
+	\Builder\elements\images\thumbs\slider-13.jpg 
+	\Builder\elements\images\thumbs\products-03.jpg 
+	\Builder\elements\images\thumbs\products-02.jpg 
+	\Builder\elements\images\thumbs\other-17.jpg 
+	\Builder\elements\images\thumbs\navigation-20.png 
+	\Builder\elements\images\thumbs\intro-14.jpg 
+	\Builder\elements\images\thumbs\footer-08.png 
+	\Builder\elements\images\thumbs\content-27.png 
+	\Builder\elements\images\thumbs\contact-27.png 
+	\Builder\elements\lib\Swiper 
+	\Landing-pages\15-travel1 
+	\Landing-pages\01-agency1\css\custom.css 
+	\Landing-pages\01-agency1\lib\Swiper 
+	\Landing-pages\02-agency2\css\custom.css 
+	\Landing-pages\02-agency2\lib\Swiper 
+	\Landing-pages\03-app1\css\custom.css 
+	\Landing-pages\03-app1\lib\Swiper 
+	\Landing-pages\04-app2\css\custom.css 
+	\Landing-pages\04-app2\lib\Swiper 
+	\Landing-pages\05-app3\css\custom.css 
+	\Landing-pages\05-app3\lib\Swiper 
+	\Landing-pages\06-finance1\css\custom.css 
+	\Landing-pages\06-finance1\lib\Swiper 
+	\Landing-pages\07-finance2\css\custom.css 
+	\Landing-pages\07-finance2\lib\Swiper 
+	\Landing-pages\08-medical1\css\custom.css 
+	\Landing-pages\08-medical1\lib\Swiper 
+	\Landing-pages\09-medical2\css\custom.css 
+	\Landing-pages\09-medical2\lib\Swiper 
+	\Landing-pages\10-restaurant1\css\custom.css 
+	\Landing-pages\10-restaurant1\lib\Swiper 
+	\Landing-pages\11-restaurant2\css\custom.css 
+	\Landing-pages\11-restaurant2\lib\Swiper 
+	\Landing-pages\12-webservice1\css\custom.css 
+	\Landing-pages\12-webservice1\lib\Swiper 
+	\Landing-pages\13-webservice2\css\custom.css 
+	\Landing-pages\13-webservice2\lib\Swiper 
+	\Landing-pages\14-ecommerce1\css\custom.css 
+	\Landing-pages\14-ecommerce1\lib\Swiper 
+	\Landing-pages\15-travel1\index.html
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+***************
+Version 0.03
+***************
+
+CHANGE LOG
+=====================
+- New : E-Commerce landing page added with builder sections
+
+FILES CHANGED
+=====================
+    \All-components\01-navigation.php 
+	\All-components\02-intros.php 
+	\All-components\03-sliders.php 
+	\All-components\18-footer.php 
+	\All-components\css\main.css 
+	\All-components\css\responsive.css 
+	\All-components\css\rgen-grids.css 
+	\All-components\js\rgen.js 
+	\Builder\elements.json 
+	\Builder\preview.php 
+	\Builder\elements\css\main.css 
+	\Builder\elements\css\responsive.css 
+	\Builder\elements\css\rgen-grids.css 
+	\Builder\elements\js\rgen.js 
+	\Builder\elements\partials\header.php 
+	\Builder\js\builder.js 
+	\Landing-pages\01-agency1\css\main.css 
+	\Landing-pages\01-agency1\css\responsive.css 
+	\Landing-pages\01-agency1\css\rgen-grids.css 
+	\Landing-pages\01-agency1\js\rgen.js 
+	\Landing-pages\02-agency2\css\main.css 
+	\Landing-pages\02-agency2\css\responsive.css 
+	\Landing-pages\02-agency2\css\rgen-grids.css 
+	\Landing-pages\02-agency2\js\rgen.js 
+	\Landing-pages\03-app1\css\main.css 
+	\Landing-pages\03-app1\css\responsive.css 
+	\Landing-pages\03-app1\css\rgen-grids.css 
+	\Landing-pages\03-app1\js\rgen.js 
+	\Landing-pages\04-app2\css\main.css 
+	\Landing-pages\04-app2\css\responsive.css 
+	\Landing-pages\04-app2\css\rgen-grids.css 
+	\Landing-pages\04-app2\js\rgen.js 
+	\Landing-pages\05-app3\css\main.css 
+	\Landing-pages\05-app3\css\responsive.css 
+	\Landing-pages\05-app3\css\rgen-grids.css 
+	\Landing-pages\05-app3\js\rgen.js 
+	\Landing-pages\06-finance1\css\main.css 
+	\Landing-pages\06-finance1\css\responsive.css 
+	\Landing-pages\06-finance1\css\rgen-grids.css 
+	\Landing-pages\06-finance1\js\rgen.js 
+	\Landing-pages\07-finance2\css\main.css 
+	\Landing-pages\07-finance2\css\responsive.css 
+	\Landing-pages\07-finance2\css\rgen-grids.css 
+	\Landing-pages\07-finance2\js\rgen.js 
+	\Landing-pages\08-medical1\css\main.css 
+	\Landing-pages\08-medical1\css\responsive.css 
+	\Landing-pages\08-medical1\css\rgen-grids.css 
+	\Landing-pages\08-medical1\js\rgen.js 
+	\Landing-pages\09-medical2\css\main.css 
+	\Landing-pages\09-medical2\css\responsive.css 
+	\Landing-pages\09-medical2\css\rgen-grids.css 
+	\Landing-pages\09-medical2\js\rgen.js 
+	\Landing-pages\10-restaurant1\css\main.css 
+	\Landing-pages\10-restaurant1\css\responsive.css 
+	\Landing-pages\10-restaurant1\css\rgen-grids.css 
+	\Landing-pages\10-restaurant1\js\rgen.js 
+	\Landing-pages\11-restaurant2\css\main.css 
+	\Landing-pages\11-restaurant2\css\responsive.css 
+	\Landing-pages\11-restaurant2\css\rgen-grids.css 
+	\Landing-pages\11-restaurant2\js\rgen.js 
+	\Landing-pages\12-webservice1\css\main.css 
+	\Landing-pages\12-webservice1\css\responsive.css 
+	\Landing-pages\12-webservice1\css\rgen-grids.css 
+	\Landing-pages\12-webservice1\js\rgen.js 
+	\Landing-pages\13-webservice2\css\main.css 
+	\Landing-pages\13-webservice2\css\responsive.css 
+	\Landing-pages\13-webservice2\css\rgen-grids.css 
+	\Landing-pages\13-webservice2\js\rgen.js
+
+FILES ADDED
+=====================
+	\Landing-pages\14-ecommerce1
+
+	\All-components\19-banners.php 
+	\All-components\20-products.php 
+	\All-components\images\600x400_01.jpg 
+	\All-components\images\600x400_02.jpg 
+	\All-components\images\600x400_03.jpg 
+	\All-components\images\600x400_04.jpg 
+	\All-components\images\ecom-slide01.jpg 
+	\All-components\images\ecom-slide02.jpg 
+	\All-components\images\ecom-slide03.jpg 
+	\All-components\images\favicon.ico 
+	\All-components\images\prd1_1.jpg 
+	\All-components\images\prd1_2.jpg 
+	\All-components\images\prd1_3.jpg 
+	\All-components\images\prd1_4.jpg 
+	\All-components\images\prd1_5.jpg 
+	\All-components\images\prd1_6.jpg 
+	\All-components\images\prd_800x800_1.jpg 
+	\All-components\images\prd_800x800_10.jpg 
+	\All-components\images\prd_800x800_2.jpg 
+	\All-components\images\prd_800x800_3.jpg 
+	\All-components\images\prd_800x800_4.jpg 
+	\All-components\images\prd_800x800_5.jpg 
+	\All-components\images\prd_800x800_6.jpg 
+	\All-components\images\prd_800x800_7.jpg 
+	\All-components\images\prd_800x800_8.jpg 
+	\All-components\images\prd_800x800_9.jpg 
+	\All-components\images\trends-bg.jpg 
+	\All-components\images\favicons\apple-touch-icon-114x114.png 
+	\All-components\images\favicons\apple-touch-icon-72x72.png 
+	\All-components\images\favicons\apple-touch-icon.png 
+	\All-components\images\favicons\favicon.ico
+
+	\Builder\elements\banners-01.php 
+	\Builder\elements\footer-07.php 
+	\Builder\elements\intro-13.php 
+	\Builder\elements\navigation-19.php 
+	\Builder\elements\products-01.php 
+	\Builder\elements\slider-12.php 
+	\Builder\elements\images\600x400_01.jpg 
+	\Builder\elements\images\600x400_02.jpg 
+	\Builder\elements\images\600x400_03.jpg 
+	\Builder\elements\images\600x400_04.jpg 
+	\Builder\elements\images\ecom-slide01.jpg 
+	\Builder\elements\images\ecom-slide02.jpg 
+	\Builder\elements\images\ecom-slide03.jpg 
+	\Builder\elements\images\favicon.ico 
+	\Builder\elements\images\prd1_1.jpg 
+	\Builder\elements\images\prd1_2.jpg 
+	\Builder\elements\images\prd1_3.jpg 
+	\Builder\elements\images\prd1_4.jpg 
+	\Builder\elements\images\prd1_5.jpg 
+	\Builder\elements\images\prd1_6.jpg 
+	\Builder\elements\images\prd_800x800_1.jpg 
+	\Builder\elements\images\prd_800x800_10.jpg 
+	\Builder\elements\images\prd_800x800_2.jpg 
+	\Builder\elements\images\prd_800x800_3.jpg 
+	\Builder\elements\images\prd_800x800_4.jpg 
+	\Builder\elements\images\prd_800x800_5.jpg 
+	\Builder\elements\images\prd_800x800_6.jpg 
+	\Builder\elements\images\prd_800x800_7.jpg 
+	\Builder\elements\images\prd_800x800_8.jpg 
+	\Builder\elements\images\prd_800x800_9.jpg 
+	\Builder\elements\images\trends-bg.jpg 
+	\Builder\elements\images\thumbs\banners-01.jpg 
+	\Builder\elements\images\thumbs\footer-07.png 
+	\Builder\elements\images\thumbs\intro-13.jpg 
+	\Builder\elements\images\thumbs\navigation-19.png 
+	\Builder\elements\images\thumbs\products-01.jpg 
+	\Builder\elements\images\thumbs\slider-12.jpg
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+***************
+Version 0.02
+***************
+
+CHANGE LOG
+=====================
+- Fixed : Page builder exporting issues with multi pages
+
+FILES CHANGED
+=====================
+    Builder\save.php 
+	Builder\elements\skeleton.html 
+	Builder\js\builder.js 
+	Landing-pages\agency1\index.html 
+	Landing-pages\agency2\index.html 
+	Landing-pages\app1\index.html 
+	Landing-pages\app2\index.html 
+	Landing-pages\app3\index.html 
+	Landing-pages\finance1\index.html 
+	Landing-pages\finance2\index.html 
+	Landing-pages\medical1\index.html 
+	Landing-pages\medical2\index.html 
+	Landing-pages\restaurant1\index.html 
+	Landing-pages\restaurant2\index.html 
+	Landing-pages\webservice1\index.html 
+	Landing-pages\webservice2\index.html
+    
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+***************
+Version 0.01
+***************
+
+CHANGE LOG
+=====================
+- Item release
+	

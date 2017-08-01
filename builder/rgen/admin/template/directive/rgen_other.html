@@ -1,0 +1,34 @@
+<div class="rgen-form-wrp form-mini form-full" ng-otherdirective>
+	
+	<h3 class="rgen-hd-1">Animation settings</h3>
+	<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.animateStatus" ng-click="status_update()"></rgen-onoff>	
+	<div data-status-wrp="{{ngModel.new.animateStatus}}">
+		<b class="overlay"></b>
+		<div class="field-box">
+			<div class="help-text mr10-b">
+				<p>Animation working based on animate.css (https://daneden.github.io/animate.css/)</p>
+				<p>Below is example to apply animation manually from source view option.</p>
+				<p><strong>data-animate-in="fadeIn|1"</strong> or</p>
+				<p><strong>data-animate-in="fadeIn"</strong></p>
+				<p>Attribute first part is animation class name "fadeIn" and second part after "|" is delay value. You can also apply only CSS animation class if you do not wish to set delay.</p>
+			</div>
+		</div>
+		<rgen-select label="Animation" selectdata="effectlist" size="w-full" data-ng-model="ngModel.new.animateData.class"></rgen-select>
+		<rgen-select label="Delay" selectdata="delaylist" size="w-full" data-ng-model="ngModel.new.animateData.delay"></rgen-select>
+	</div>
+
+	<div class="styleEditor-btn-wrp">
+		<div class="styleEditor-btn">
+			<div class="margin-bottom-5">
+				<button type="button" class="btn btn-block" ng-click="apply()"><span class="fui-check-inverted"></span> Apply Changes</button>
+			</div>
+			
+			<div class="sideButtons clearfix btn-group btn-group-xs btn-block">
+				<!-- <button type="button" class="btn" id="cloneElementButton"><span class="fa fa-clone"></span> Clone</button> -->
+				<button type="button" class="btn btn-block" style="width: 100%;" ng-click="reset()"><i class="fa fa-refresh"></i> Reset</button>
+				<!-- <button type="button" class="btn" id="removeElementButton"><span class="fa fa-remove"></span> Remove</button> -->
+			</div>	
+		</div>
+	</div>
+	
+</div>

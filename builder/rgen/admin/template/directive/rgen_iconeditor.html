@@ -1,0 +1,44 @@
+<div class="rgen-form-wrp form-mini form-full" ng-icondirective ng-click="update()">
+
+	<h3 class="rgen-hd-1">Status of all settings</h3>
+	<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.status" ng-click="status_update()"></rgen-onoff>	
+	
+	<div class="field-box" ng-if="ngModel.new.status">
+		<h5 class="rgen-hd-4 fs12">Selected icon preview</h5>
+		<div ng-show="selected != ''">
+			<div class="icon-preview {{selected}}"></div>
+			<div class="icon-name">{{selected}}</div>
+		</div>
+		
+		<hr>
+
+		<span class="filter-input">
+			<i class="fa fa-times-circle" data-ng-show="search.class != ''" data-ng-click="filter_reset()"></i>
+			<input type="text" class="form-field mr10-b w-full" placeholder="Enter name to filter icons" data-ng-model="search.class">
+		</span>
+
+		<div class="icon-container">
+			<span ng-repeat="icon in icondata | filter:search" ng-click='select(icon.class)' ng-class="{active: isActive(icon.class)}"><i class="{{icon.class}}"></i></span>
+		</div>
+		<!-- <div class="help-text">
+			All icons by <br>
+			<a href="http://fortawesome.github.io/Font-Awesome/icons/" target="_blank">Font Awesome Icons</a>, <br>
+			<a href="http://getbootstrap.com/components/" target="_blank">Bootstrap Icons</a>
+		</div> -->
+	</div>
+
+	<div class="styleEditor-btn-wrp">
+		<div class="styleEditor-btn">
+			<div class="margin-bottom-5">
+				<button type="button" class="btn btn-block" ng-click="apply()"><span class="fui-check-inverted"></span> Apply Changes</button>
+			</div>
+			
+			<div class="sideButtons clearfix btn-group btn-group-xs">
+				<button type="button" class="btn" id="cloneElementButton"><span class="fa fa-clone"></span> Clone</button>
+				<button type="button" class="btn" ng-click="reset()"><i class="fa fa-refresh"></i> Reset</button>
+				<button type="button" class="btn" id="removeElementButton"><span class="fa fa-remove"></span> Remove</button>
+			</div>	
+		</div>
+	</div>
+	
+</div>

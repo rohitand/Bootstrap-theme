@@ -1,0 +1,46 @@
+section .bg-section,
+.bg-section .overlay { margin: 5px; }
+
+[class*="col-"].bg-section,
+.intro-section-1 .bg-section { margin: 0px; }
+
+
+.editable_el {
+	outline: 1px dotted #f00;
+}
+
+.editable_el_hover,
+.editable_el_hover_offset3 {
+	outline: 2px dotted #f00;
+	cursor: pointer;
+	
+}
+
+.editable_el_hover_offset3 {
+	outline-offset: -3px;
+}
+
+.field-wrp {
+	border: 1px solid #6CBD59;
+	position: relative;
+}
+.field-wrp:before {
+	content: "Form builder area";
+	position: absolute;
+	left: -1px;
+	top: -18px;
+	padding: 3px 6px;
+	background-color: #6CBD59;
+	color: #fff;
+	line-height: 1;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.field-wrp .editable_el_hover,
+.field-wrp .editable_el_hover_offset3 {
+	z-index: 99999;
+}
+
+[data-animate-in]:not(.animated) { opacity: 1 !important; }

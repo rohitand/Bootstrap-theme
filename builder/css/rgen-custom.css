@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+
+body {
+	background: #F2F2F2;
+	color: #b8c9d8;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.screen .frameWrapper #pageList ul iframe {
+	display: block;
+}
+.modal-title,
+.modal-body {
+	color: #34495e;
+}
+header { 
+	background-color: #3b4c5c;
+}
+#loader { background: #262f38; }
+#loader > img {
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+}
+.screen .toolbar { background: #000000; border-radius: 3px 3px 0 0; }
+.screen .start > span { background-color: transparent; color: rgba(255,255,255,0.5); }
+.menu .toggle {
+	background: #3498db;
+	top: 14px;
+	box-shadow: none;
+	border-radius: 0 5px 5px 0;
+}
+.menu .main h3 { 
+	font-weight: 700;
+	font-size: 14px;
+}
+.menu .main h3 > span { margin-right: 5px; }
+.menu .main {
+	background-color: #52606D;
+	box-shadow: 2px 0 10px 0 rgba(0,0,0,0.3);
+}
+.menu .main > ul > li > a {
+	color: #B7C1CA;
+	font-size: 14px;
+}
+.menu .main ul#pages li.active,
+.menu .main > ul#elements > li > a:hover, 
+.menu .main > ul#elements > li > a.active {
+	color: #fff;
+	background: #3F4B56;
+}
+li.element > img {
+	border: 1px solid rgba(255,255,255,0.1);
+}
+.styleEditor {
+	color: #8392a0;
+}
+.styleEditor .breadcrumb,
+.styleEditor .breadcrumb .active {
+	font-weight: normal;
+}
+.styleEditor ul.breadcrumb {
+	padding: 10px 13px;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: rgba(0,0,0,0.05);
+}
+/*.screen {
+	border: 3px solid rgba(0,0,0,0.4);
+	border-radius: 6px;
+}*/
+.screen .frameWrapper {
+    background: #293540;
+    padding-top: 0px;
+    position: relative;
+}
+.main > hr {
+	border-top: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+.checkbox.primary .icons, 
+.radio.primary .icons,
+.checkbox.primary.disabled .icons,
+.radio.primary.disabled .icons {
+    color: #637684;
+}
+.checkbox.primary.checked, .radio.primary.checked {
+	color: #fff;
+}
+.btn-embossed { box-shadow: none; }
+.btn {
+	font-size: 14px;
+	padding-top: 8px; 
+	padding-bottom: 8px;
+	margin: 0 1px;
+}
+.btn > [class^="fui-"] { margin-right: 3px; }
+header .btn.btn-inverse,
+header .btn.btn-info,
+header .btn.btn-primary {
+	/* background-color: #3498db; */
+}
+header .btn { 
+	position: relative;
+	top: 10px;
+	margin: 0 1px 0 0;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 8px 12px;
+	background-color: rgba(0,0,0,0.4) !important;
+}
+header .btn > [class^="fui-"] { display: none; }
+header .btn:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+header .btn-danger { background-color: #e74c3c !important; }
+.sideButtons > .btn {
+	margin: 0px;
+	padding: 5px 8px;
+	font-size: 12px;
+	border-radius: 0px;
+}
+.main > .sideButtons {
+	margin: 0 auto 20px auto;
+	width: 80%;
+}
+.sideButtons > .btn > span {
+	display: none;
+}
+.rgen-sidebtn .btn {
+	display: block;
+	width: 100%;
+	margin-bottom: 2px;
+	background-color: rgba(0,0,0,0.4);
+}
+.rgen-sidebtn .btn:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+.menu .main ul#pages li > span a.fileSave {
+	padding: 4px 4px 4px 6px;
+	font-size: 13px;
+	top: -1px;
+	right: -8px;
+}
+.menu .main ul#pages li.edit > input {
+	font-size: 12px;
+}
+
+.modal-content { border-radius: 4px; box-shadow: none; }
+
+.chosen-container .chosen-results li {
+	font-size: 20px;
+}
+.chosen-container-single .chosen-single .pe-icon,
+.chosen-container .chosen-results li:nth-child(-n+202) {
+	font-family: 'Pe-icon-7-stroke';
+}
+.chosen-container-single .chosen-single .et-line-icon,
+.chosen-container .chosen-results li:nth-child(n+203):nth-child(-n+302) {
+	font-family: 'et-line';
+}
+.chosen-container-single .chosen-single .themify-icon,
+.chosen-container .chosen-results li:nth-child(n+303):nth-child(-n+654) {
+	font-family: 'themify';
+}
+.modal-dialog {
+	font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+	.export-modal {
+		max-width: 800px;
+		width: auto;
+	}
+	.export-modal .modal-content { 
+		width: 100%;
+	}
+	.export-modal label { line-height: 1.4; }
+	.export-modal textarea { height: 150px; }
+}

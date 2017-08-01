@@ -1,0 +1,18 @@
+<h3 class="main-hd-1">Manage page sections</h3>
+<div class="content-wrp manage-sections">
+	<p>Do not forgot click on <strong>"SAVE CHANGES"</strong> button to apply changes.</p>
+	<div class="rgen-btn-group tab-group align-c mr10-b">
+		<a data-href="#manage-section-sortable-{{page_key}}" ng-repeat="(page_key, page) in pagedata" class="rgen-btn large">{{page.page_id}}</a>
+	</div>
+	<ul class="manage-section-sortable" id="manage-section-sortable-{{page_key}}" page-id="{{page.page_id}}" ng-repeat="(page_key, page) in pagedata">
+		<li class="section-wrp" seciton-id="{{page.page_id}}-section-{{key}}" ng-repeat="(key, section) in page.page_data" sort-id="{{section.sort_id}}">
+			<table align="center">
+				<tr>
+					<td><a class="rgen-btn small" ng-click="removeSection(section, page.page_id)"><i class="fa fa-times"></i> Remove</a></td>
+					<td class="section-img"><img ng-src="{{section.thumb}}" alt=""></td>
+					<td><a class="rgen-btn small" ng-click="makeClone(section, page.page_id)"><i class="fa fa-clone"></i> Clone</a></td>
+				</tr>
+			</table>
+		</li>
+	</ul>
+</div><!-- content-wrp -->

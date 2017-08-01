@@ -1,0 +1,353 @@
+<div class="rgen-form-wrp form-mini form-full" ng-styledirective>
+
+	<h3 class="rgen-hd-1">Status of all settings</h3>
+	<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.status" ng-click="status_update()"></rgen-onoff>	
+
+	<!--====================================
+	=            All style data            =
+	=====================================-->
+	<div class="accordion-widget acc-style3" data-acc-toggle="n" data-acc-handle="y" data-acc-openclass="fa fa-plus-circle" data-acc-closeclass="fa fa-minus-circle">
+		
+			
+		<div class="acc-block" id="position_section">
+			<h3 class="acc-hd">Position</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.position_section" ng-click="status_update()"></rgen-onoff>	
+				<div data-status-wrp="{{ngModel.new.stylingStatus.position_section}}">
+					<b class="overlay"></b>
+					<rgen-select label="Position" selectdata="position" size="w-full" data-ng-model="ngModel.new.stylingData.position.position"></rgen-select>
+					<div class="field-box">
+						<ul class="form-row">
+							<li>
+								<label class="lbl">Top</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.position.top">
+							</li>
+							<li>
+								<label class="lbl">Right</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.position.right">
+							</li>
+							<li>
+								<label class="lbl">Bottom</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.position.bottom">
+							</li>
+							<li>
+								<label class="lbl">Left</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.position.left">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- / Position -->
+
+		<div class="acc-block" id="text_section">
+			<h3 class="acc-hd">Text</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.text_section" ng-click="status_update()"></rgen-onoff>
+				<div data-status-wrp="{{ngModel.new.stylingStatus.text_section}}">
+					<b class="overlay"></b>
+					<rgen-colorpicker label="Color" data-ng-model="ngModel.new.stylingData.text.color"></rgen-colorpicker>
+					<rgen-text label="Size" size="w-full" data-ng-model="ngModel.new.stylingData.text.font_size"></rgen-text>
+					<rgen-text label="Weight" size="w-full" data-ng-model="ngModel.new.stylingData.text.font_weight"></rgen-text>
+					<rgen-text label="Alignment" fhelp="left, center, right" size="w-full" data-ng-model="ngModel.new.stylingData.text.text_align"></rgen-text>
+					<rgen-text label="Text transform" fhelp="none, capitalize, uppercase, lowercase, initial, inherit" size="w-full" data-ng-model="ngModel.new.stylingData.text.text_transform"></rgen-text>
+					<rgen-text label="Line height" fhelp="Set value in number instead of PX, Example : 1.2" size="w-full" data-ng-model="ngModel.new.stylingData.text.line_height"></rgen-text>
+				</div>
+			</div>
+		</div><!-- / Text -->
+
+
+		<div class="acc-block" id="background_section">
+			<h3 class="acc-hd">Background</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.background_section" ng-click="status_update()"></rgen-onoff>
+				<div data-status-wrp="{{ngModel.new.stylingStatus.background_section}}">
+					<b class="overlay"></b>
+					<rgen-colorpicker label="Background color" data-ng-model="ngModel.new.stylingData.background.background_color"></rgen-colorpicker>
+					
+					<rgen-text label="Background image" id="bgimg-1" fhelp="Enter your image location path. Default path example => images/bg1.jpg" size="w-full" data-ng-model="ngModel.new.stylingData.background.background_image"></rgen-text>
+
+					<rgen-imgupload label="Upload image" rgenid="ngModel.rgen_id" fn="imguploadfn()" data-ng-model="ngModel.imgupload"></rgen-imgupload>
+
+					<rgen-select label="Background position" selectdata="bgposition" size="w-full" data-ng-model="ngModel.new.stylingData.background.background_position"></rgen-select>
+					<div class="field-box field-sub">
+						<label>X - Y</label>
+						<div class="fields">
+							<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.background.background_position">
+						</div>
+					</div>
+					<rgen-select label="Background repeat" selectdata="repeat" size="w-full" data-ng-model="ngModel.new.stylingData.background.background_repeat"></rgen-select>
+					<rgen-select label="Background size" selectdata="bgsize" size="w-full" data-ng-model="ngModel.new.stylingData.background.background_size"></rgen-select>
+					<rgen-select label="Background attachment" selectdata="attachment" size="w-full" data-ng-model="ngModel.new.stylingData.background.background_attachment"></rgen-select>	
+					
+				</div>
+				
+			</div>
+		</div><!-- / Background options -->
+
+		<div class="acc-block" id="margin_section">
+			<h3 class="acc-hd">Margin</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.margin_section" ng-click="status_update()"></rgen-onoff>
+				<div data-status-wrp="{{ngModel.new.stylingStatus.margin_section}}">
+					<b class="overlay"></b>
+					<div class="field-box">
+						<ul class="form-row">
+							<li>
+								<label class="lbl">Top</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.margin.margin_top">
+							</li>
+							<li>
+								<label class="lbl">Right</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.margin.margin_right">
+							</li>
+							<li>
+								<label class="lbl">Bottom</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.margin.margin_bottom">
+							</li>
+							<li>
+								<label class="lbl">Left</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.margin.margin_left">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- / margin -->
+
+		<div class="acc-block" id="padding_section">
+			<h3 class="acc-hd">Padding</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.padding_section" ng-click="status_update()"></rgen-onoff>
+				<div data-status-wrp="{{ngModel.new.stylingStatus.padding_section}}">
+					<b class="overlay"></b>
+					<div class="field-box">
+						<ul class="form-row">
+							<li>
+								<label class="lbl">Top</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.padding.padding_top">
+							</li>
+							<li>
+								<label class="lbl">Right</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.padding.padding_right">
+							</li>
+							<li>
+								<label class="lbl">Bottom</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.padding.padding_bottom">
+							</li>
+							<li>
+								<label class="lbl">Left</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.padding.padding_left">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- / padding -->
+
+		<div class="acc-block" id="border_section">
+			<h3 class="acc-hd">Border</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.border_section" ng-click="status_update()"></rgen-onoff>
+				<div data-status-wrp="{{ngModel.new.stylingStatus.border_section}}">
+					<b class="overlay"></b>
+					<div class="field-box" style="padding-top: 15px; padding-bottom: 15px;">
+						<h5 class="rgen-hd-4 fs12">Border style</h5>
+						<ul class="form-row">
+							<li>
+								<label class="lbl">Top</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.border.border_top_style">
+							</li>
+							<li>
+								<label class="lbl">Right</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.border.border_right_style">
+							</li>
+							<li>
+								<label class="lbl">Bottom</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.border.border_bottom_style">
+							</li>
+							<li>
+								<label class="lbl">Left</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.border.border_left_style">
+							</li>
+						</ul>
+						<div class="help-text mr10-t"><strong>Values</strong> : solid, double, dotted, dashed</div>
+					</div>
+
+					<div class="field-box" style="padding-top: 15px; padding-bottom: 15px;">
+						<h5 class="rgen-hd-4 fs12">Border width</h5>
+						<ul class="form-row">
+							<li>
+								<label class="lbl">Top</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.border.border_top_width">
+							</li>
+							<li>
+								<label class="lbl">Right</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.border.border_right_width">
+							</li>
+							<li>
+								<label class="lbl">Bottom</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.border.border_bottom_width">
+							</li>
+							<li>
+								<label class="lbl">Left</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.border.border_left_width">
+							</li>
+						</ul>
+					</div>
+
+					<div class="field-box" style="padding-top: 15px; padding-bottom: 15px;">
+						<h5 class="rgen-hd-4 fs12">Border color</h5>
+						<ul class="form-row">
+							<li>
+								<label class="lbl">Top</label>
+								<rgen-colorpicker type="alone" data-ng-model="ngModel.new.stylingData.border.border_top_color"></rgen-colorpicker>
+							</li>
+							<li>
+								<label class="lbl">Right</label>
+								<rgen-colorpicker type="alone" data-ng-model="ngModel.new.stylingData.border.border_right_color"></rgen-colorpicker>
+							</li>
+							<li>
+								<label class="lbl">Bottom</label>
+								<rgen-colorpicker type="alone" data-ng-model="ngModel.new.stylingData.border.border_bottom_color"></rgen-colorpicker>
+							</li>
+							<li>
+								<label class="lbl">Left</label>
+								<rgen-colorpicker type="alone" data-ng-model="ngModel.new.stylingData.border.border_left_color"></rgen-colorpicker>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- / border -->
+
+
+		<div class="acc-block" id="wh_section">
+			<h3 class="acc-hd">Width - Height</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.wh_section" ng-click="status_update()"></rgen-onoff>
+				<div data-status-wrp="{{ngModel.new.stylingStatus.wh_section}}">
+					<b class="overlay"></b>
+					<div class="field-box">
+						<ul class="form-row">
+							<li>
+								<label class="lbl">Width</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.wh.width">
+							</li>
+							<li>
+								<label class="lbl">Height</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.wh.height">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- / Width height -->
+
+		<div class="acc-block" id="min_wh_section">
+			<h3 class="acc-hd">Minimum width - height</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.min_wh_section" ng-click="status_update()"></rgen-onoff>
+				<div data-status-wrp="{{ngModel.new.stylingStatus.min_wh_section}}">
+					<b class="overlay"></b>
+					<div class="field-box">
+						<ul class="form-row">
+							<li>
+								<label class="lbl">Min width</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.min_wh.min_width">
+							</li>
+							<li>
+								<label class="lbl">Min height</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.min_wh.min_height">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- / Min width - min height -->
+
+	
+		
+		<div class="acc-block" id="max_wh_section">
+			<h3 class="acc-hd">Maximum width - height</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.max_wh_section" ng-click="status_update()"></rgen-onoff>
+				<div data-status-wrp="{{ngModel.new.stylingStatus.max_wh_section}}">
+					<b class="overlay"></b>
+					<div class="field-box">
+						<ul class="form-row">
+							<li>
+								<label class="lbl">Max width</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.max_wh.max_width">
+							</li>
+							<li>
+								<label class="lbl">Max height</label>
+								<input type="text" class="form-field w-full" data-ng-model="ngModel.new.stylingData.max_wh.max_height">
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div><!-- / Max width - max height -->
+
+
+		<!--=================================
+		= Ohter css properties
+		==================================-->
+		<div class="acc-block" id="other_section">
+			<h3 class="acc-hd">Other CSS properties</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.other_section" ng-click="status_update()"></rgen-onoff>
+				<div data-status-wrp="{{ngModel.new.stylingStatus.other_section}}">
+					<b class="overlay"></b>
+					<rgen-select label="Opacity" selectdata="opacity" size="w-full" data-ng-model="ngModel.new.stylingData.other.opacity"></rgen-select>
+				</div>
+			</div>
+		</div><!-- ======= END : Ohter css properties =======  -->
+
+		
+		<!--=================================
+		= Custom css
+		==================================-->
+		<div class="acc-block" id="customstyle_section">
+			<h3 class="acc-hd">Custom style</h3>
+			<div class="acc-content">
+				<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.stylingStatus.customstyle_section" ng-click="status_update()"></rgen-onoff>
+				<div data-status-wrp="{{ngModel.new.stylingStatus.customstyle_section}}">
+					<b class="overlay"></b>
+					<div class="field-box">
+						<div class="help-text mr10-b">
+							<strong>NOTE: </strong>Enter only style properties. Do not apply class name with brackets.
+							<br><br>
+							
+							<strong>Example code :</strong><br>
+							font-size: 13px;<br>
+							width: 40px;<br>
+							line-height: 1.5;<br>
+							.....
+							
+						</div>
+						<textarea class="form-field w-full" style="min-height: 300px; margin-bottom: 20px;" data-ng-model="ngModel.new.customstyle" placeholder="Enter custom style properties only.."></textarea>
+						
+					</div>
+				</div>
+			</div>
+		</div><!-- ======= END : Custom =======  -->
+
+
+	</div>
+	<!--====  End of All style data  ====-->
+	<div class="styleEditor-btn-wrp">
+		<div class="styleEditor-btn">
+			<div class="margin-bottom-5">
+				<button type="button" class="btn btn-block" ng-click="apply()"><span class="fui-check-inverted"></span> Apply Changes</button>
+			</div>
+			
+			<div class="sideButtons clearfix btn-group btn-group-xs">
+				<button type="button" class="btn" id="cloneElementButton"><span class="fa fa-clone"></span> Clone</button>
+				<button type="button" class="btn" ng-click="reset()"><i class="fa fa-refresh"></i> Reset</button>
+				<button type="button" class="btn" id="removeElementButton"><span class="fa fa-remove"></span> Remove</button>
+			</div>	
+		</div>
+	</div>
+</div>

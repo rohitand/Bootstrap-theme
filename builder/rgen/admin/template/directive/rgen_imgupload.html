@@ -1,0 +1,26 @@
+<div class="field-box">
+	<label>
+		{{label}}
+		<div class="help-text" ng-show="lhelp">{{lhelp}}</div>
+	</label>
+	<div class="fields">
+		<form id="{{uid}}" action="iupload.php" data-ng-model="ngModel" style="margin:0;">
+			<div class="fileinput fileinput-new" data-provides="fileinput">
+				<div class="thumbnail-wrp">
+					<div class="fileinput-preview thumbnail" style="width: 100%; height: 150px;"></div>	
+				</div>
+				
+				<div class="buttons">
+					<span class="rgen-btn mini btn-file v-mid">
+						<span class="fileinput-new" data-trigger="fileinput"><i class="fa fa-picture-o"></i>&nbsp; Select image</span>
+						<span class="fileinput-exists"><i class="fa fa-cog"></i>&nbsp; Change</span>
+						<input type="file" name="imageFileField">
+					</span>
+					<a href="#" class="rgen-btn mini fileinput-exists v-mid" data-dismiss="fileinput"><i class="fa fa-trash-o"></i></a>
+				</div>
+			</div>
+		</form>
+		<div class="help-text" ng-show="fhelp">{{fhelp}}</div>
+	</div>
+</div>
+

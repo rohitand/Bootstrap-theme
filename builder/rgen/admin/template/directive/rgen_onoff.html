@@ -1,0 +1,14 @@
+<div class="field-box">
+	<label>
+		{{label}}
+		<div class="help-text" ng-show="lhelp">{{lhelp}}</div>
+	</label>
+	<div class="fields">
+		<span class="rgen-onoff-wrp">
+			<input type="checkbox" id="{{uid}}" class="rgen-onoff" name="my-checkbox" data-size="{{size ? size : 'mini'}}" data-ng-model="ngModel">
+			<label for="{{uid}}"></label>
+		</span>
+		<div class="help-text" ng-show="fhelp">{{fhelp}}</div>
+	</div>
+</div>
+

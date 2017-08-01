@@ -1,0 +1,204 @@
+<h3 class="main-hd-1">
+	Email subscribe settings
+	<span class="btn-holder"><a class="rgen-btn large" ng-click="save()">Apply</a></span>
+</h3>
+<div class="content-wrp mailsubscribe">
+	<p>Email subscribe settings only apply to email subscribe forms not on all forms available on landing pages.</p>
+
+	<div class="rgen-form-wrp form-full form-medium">
+		<div class="field-box">
+			<label>Select mailing service</label>
+			<div class="fields">
+				<span class="rgen-select w-small">
+					<select data-ng-model="maildata.type" data-ng-options="o.val as o.name for o in mailservices" data-ng-change="update(maildata.type)"></select>
+				</span>
+			</div>
+		</div>
+
+		<!--====================================
+		MAILCHIMP SETTINGS
+		=====================================-->
+		<div ng-if="maildata.type == 'mailchimp'">
+			<rgen-text label="API Key" size="w-full" data-ng-model="maildata.settings.apikey"></rgen-text>
+			<rgen-text label="List ID" size="w-full" data-ng-model="maildata.settings.listid"></rgen-text>
+	
+			<div class="help-text-box mr20">
+				<div class="help-text">
+					<h3 class="rgen-hd-4">MAILCHIMP SETTINGS</h3>
+					<ul>
+						<li>
+							<p><strong>Where can I find my API key?</strong></p>
+							<p><a href="http://kb.mailchimp.com/accounts/management/about-api-keys" target="_blank">http://kb.mailchimp.com/accounts/management/about-api-keys</a></p>
+						</li>
+						<li>
+							<p><strong>Where can I find my List ID?</strong></p>
+							<p><a href="http://kb.mailchimp.com/lists/managing-subscribers/find-your-list-id" target="_blank">http://kb.mailchimp.com/lists/managing-subscribers/find-your-list-id</a></p>
+						</li>
+					</ul>
+					<br>
+					You can find MailChimp API Key and List ID from your Mailchimp's dashboard
+				</div>
+			</div>
+		</div>
+
+		<!--====================================
+		CAMPAIGN MONITOR SETTINGS
+		=====================================-->
+		<div ng-if="maildata.type == 'campaignmonitor'">
+			<rgen-text label="API Key" size="w-full" data-ng-model="maildata.settings.apikey"></rgen-text>
+			<rgen-text label="List ID" size="w-full" data-ng-model="maildata.settings.listid"></rgen-text>
+	
+			<div class="help-text-box mr20">
+				<div class="help-text">
+					<h3 class="rgen-hd-4">CAMPAIGN MONITOR SETTINGS</h3>
+					<ul>
+						<li>
+							<p><strong>Where can I find my API key?</strong></p>
+							<p><a href="http://help.campaignmonitor.com/topic.aspx?t=206" target="_blank">http://help.campaignmonitor.com/topic.aspx?t=206</a></p>
+						</li>
+						<li>
+							<p><strong>Where can I find my List ID?</strong></p>
+							<p><a href="https://www.campaignmonitor.com/api/getting-started/?&_ga=1.69755664.1469494041.1451461361#listid" target="_blank">https://www.campaignmonitor.com/api/getting-started/?&_ga=1.69755664.1469494041.1451461361#listid</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--====================================
+		GET RESPONSE SETTINGS
+		=====================================-->
+		<div ng-if="maildata.type == 'getresponse'">
+			<rgen-text label="API Key" size="w-full" data-ng-model="maildata.settings.apikey"></rgen-text>
+			<rgen-text label="Campaign name" size="w-full" data-ng-model="maildata.settings.listid"></rgen-text>
+	
+			<div class="help-text-box mr20">
+				<div class="help-text">
+					<h3 class="rgen-hd-4">GET RESPONSE SETTINGS</h3>
+					<ul>
+						<li>
+							<p><strong>Where can I find my API key?</strong></p>
+							<p><a href="http://apidocs.getresponse.com/pl/article/api-key" target="_blank">http://apidocs.getresponse.com/pl/article/api-key</a></p>
+						</li>
+						<li>
+							<p><strong>Campaign name as List ID</strong></p>
+							<p><a href="https://app.getresponse.com/campaign_list.html" target="_blank">https://app.getresponse.com/campaign_list.html</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<!--====================================
+		AWEBER SETTINGS
+		=====================================-->
+		<div ng-if="maildata.type == 'aweber'">
+			<rgen-text label="API Key" size="w-full" data-ng-model="maildata.settings.apikey"></rgen-text>
+			<rgen-text label="List name" size="w-full" data-ng-model="maildata.settings.listid"></rgen-text>
+	
+			<div class="help-text-box mr20">
+				<div class="help-text">
+					<h3 class="rgen-hd-4">AWEBER SETTINGS</h3>
+					<ul>
+						<li>
+							<p><strong>Where can I find my authorization code?</strong></p>
+							<p><a href="https://auth.aweber.com/1.0/oauth/authorize_app/03d41609" target="_blank">https://auth.aweber.com/1.0/oauth/authorize_app/03d41609</a></p>
+						</li>
+						<li>
+							<p><strong>Where can I find my list Name</strong></p>
+							<p><a href="https://www.aweber.com/users/autoresponder/manage" target="_blank">https://www.aweber.com/users/autoresponder/manage</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<!--====================================
+		iContact SETTINGS
+		=====================================-->
+		<div ng-if="maildata.type == 'icontact'">
+			<rgen-text label="APP ID" size="w-full" data-ng-model="maildata.settings.apikey"></rgen-text>
+			<rgen-text label="API User" size="w-full" data-ng-model="maildata.settings.apiuser"></rgen-text>
+			<rgen-text label="API Password" size="w-full" data-ng-model="maildata.settings.apipwd"></rgen-text>
+			<rgen-text label="List name" size="w-full" data-ng-model="maildata.settings.listid"></rgen-text>
+	
+			<div class="help-text-box mr20">
+				<div class="help-text">
+					<h3 class="rgen-hd-4">iContact SETTINGS</h3>
+					<ul>
+						<li>
+							<p><strong>How can I register my APP?</strong></p>
+							<p><a href="https://www.icontact.com/developerportal/documentation/register-your-app/" target="_blank">https://www.icontact.com/developerportal/documentation/register-your-app/</a></p>
+						</li>
+						<li>
+							<p><strong>Where can I find my APP ID?</strong></p>
+							<p><a href="https://app.icontact.com/icp/core/registerapp/" target="_blank">https://app.icontact.com/icp/core/registerapp/</a></p>
+							<p>Obtained when you Register the API application. This identifier is used to uniquely identify your application.</p>
+						</li>
+						<li>
+							<p><strong>Where can I find my API USER?</strong></p>
+							<p><a href="https://www.icontact.com/developerportal/documentation/authenticate-requests/" target="_blank">https://www.icontact.com/developerportal/documentation/authenticate-requests/</a></p>
+							<p>The iContact username for logging into your iContact account. If you are using the sandbox for testing, this is your sandbox environment username.</p>
+						</li>
+						<li>
+							<p><strong>Where can I find my API PASSWORD?</strong></p>
+							<p><a href="https://www.icontact.com/developerportal/documentation/authenticate-requests/" target="_blank">https://www.icontact.com/developerportal/documentation/authenticate-requests/</a></p>
+							<p><a href="https://app.icontact.com/icp/core/externallogin" target="_blank">https://app.icontact.com/icp/core/externallogin</a></p>
+							<p>The API application password set when the application was registered. This API password is used as input when your application authenticates to the API. This password is not the same as the password you use to log in to iContact.</p>
+						</li>
+						<li>
+							<p><strong>Where can I find my LIST NAME?</strong></p>
+							<p><a href="https://app.icontact.com/icp/core/mycontacts/lists" target="_blank">https://app.icontact.com/icp/core/mycontacts/lists</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<!--====================================
+		CONSTANT CONTACT SETTINGS
+		=====================================-->
+		<div ng-if="maildata.type == 'constantcontact'">
+			<rgen-text label="API Key" size="w-full" data-ng-model="maildata.settings.apikey"></rgen-text>
+			<rgen-text label="Access Token" size="w-full" data-ng-model="maildata.settings.token"></rgen-text>
+			<rgen-text label="List name" size="w-full" data-ng-model="maildata.settings.listid"></rgen-text>
+	
+			<div class="help-text-box mr20">
+				<div class="help-text">
+					<h3 class="rgen-hd-4">CONSTANT CONTACT SETTINGS</h3>
+					<ul>
+						<li>
+							<p><strong>Where can I find my API KEY & ACCESS TOKEN?</strong></p>
+							<p><a href="http://developer.constantcontact.com/home/api-keys.html" target="_blank">http://developer.constantcontact.com/home/api-keys.html</a></p>
+							<p><a href="https://constantcontact.mashery.com/page" target="_blank">https://constantcontact.mashery.com/page</a></p>
+						</li>
+						<li>
+							<p><strong>Where can I find my list Name</strong></p>
+							<p><a href="https://ui.constantcontact.com/rnavmap/distui/contacts" target="_blank">https://ui.constantcontact.com/rnavmap/distui/contacts</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<!--====================================
+		TEXT FILE SETTINGS
+		=====================================-->
+		<div ng-if="maildata.type == 'file'">
+			<rgen-text label="File location" fhelp="Default file is subscription.txt" size="w-full" data-ng-model="maildata.settings.file"></rgen-text>
+	
+			<div class="help-text-box mr20">
+				<div class="help-text">
+					<h3 class="rgen-hd-4">TEXT FILE SETTINGS</h3>
+					<p>Set path to your .txt to save the emails of the subscribers</p>
+					<p>Default file path is <strong>subscription.txt</strong></p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</div><!-- content-wrp -->

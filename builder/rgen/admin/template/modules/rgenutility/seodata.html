@@ -1,0 +1,26 @@
+<h3 class="main-hd-1">
+	SEO data
+	<span class="btn-holder"><a class="rgen-btn large" ng-click="save()">Apply</a></span>
+</h3>
+<div class="content-wrp seodata">
+	<div class="rgen-btn-group tab-group align-c mr30-b">
+		<a data-href="#seodata-{{page_key}}" ng-repeat="(page_key, page) in pagedata" class="rgen-btn large">{{page.page_id}}</a>
+	</div>
+
+	<div class="rgen-form-wrp form-full form-medium" id="seodata-{{page_key}}" ng-repeat="(page_key, page) in pagedata">
+		<rgen-text label="Meta title" size="w-full" data-ng-model="page.metadata.title"></rgen-text>
+		<div class="field-box">
+			<label>Meta tag description</label>
+			<div class="fields">
+				<textarea class="form-field w-full" style="min-height: 300px;" data-ng-model="page.metadata.description" placeholder="Enter your meta tag description"></textarea>		
+			</div>
+		</div>
+		<div class="field-box">
+			<label>Meta tag keywords</label>
+			<div class="fields">
+				<textarea class="form-field w-full" style="min-height: 300px;" data-ng-model="page.metadata.keywords" placeholder="Enter your meta tag keyboards"></textarea>		
+			</div>
+		</div>
+		
+	</div>
+</div><!-- content-wrp -->

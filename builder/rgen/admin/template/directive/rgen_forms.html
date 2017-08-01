@@ -1,0 +1,51 @@
+<div class="rgen-form-wrp form-mini form-full" ng-formdirective>
+
+	<h3 class="rgen-hd-1">Status of all settings</h3>
+	<rgen-onoff label="Status" class="bg1" data-ng-model="ngModel.new.status" ng-click="status_update()"></rgen-onoff>	
+	
+	<div ng-if="ngModel.new.status">
+		<rgen-text label="Send email to" size="w-full" data-ng-model="ngModel.new.to"></rgen-text>
+
+		<div ng-if="ngModel.formfield">
+			<h3 class="rgen-hd-1">Field settings</h3>
+			<rgen-onoff label="required" class="bg1" data-ng-model="ngModel.new.formData.required" ng-click="status_update()"></rgen-onoff>
+			<rgen-text label="Mail content label text" size="w-full" fhelp="Label text only use in email content label. It is not form field label." data-ng-model="ngModel.new.formData.datalabel"></rgen-text>
+			<rgen-text label="Name" size="w-full" data-ng-model="ngModel.new.formData.name"></rgen-text>
+			<rgen-text label="Validation message" size="w-full" data-ng-model="ngModel.new.formData.datamsg"></rgen-text>
+			<rgen-text label="Placeholder" ng-if="ngModel.new.formData.placeholder" size="w-full" data-ng-model="ngModel.new.formData.placeholder"></rgen-text>
+			<rgen-text label="Default value" size="w-full" data-ng-model="ngModel.new.formData.default_value"></rgen-text>	
+		</div>
+		
+		<div class="build-form" ng-if="ngModel.buildform">
+			<h3 class="rgen-hd-1">Build form</h3>
+			<div class="field-box" style="padding-top: 15px; padding-bottom: 15px;">
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('frm_subhd')"><i class="fa fa-header mr5-r"></i> Sub heading</button>
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('frm_text')"><i class="fa fa-paragraph mr5-r"></i> Paragraph text</button>
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('text')"><i class="fa fa-bars mr5-r"></i> Text input</button>
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('email')"><i class="fa fa-envelope-o mr5-r"></i> Email input</button>
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('phone')"><i class="fa fa-phone mr5-r"></i> Phone</button>
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('select')"><i class="fa fa-list-alt mr5-r"></i> Select menu</button>
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('datepicker')"><i class="fa fa-calendar mr5-r"></i> Date picker</button>
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('datetimepicker')"><i class="fa fa-clock-o mr5-r"></i> Date & time picker</button>
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('textarea')"><i class="fa fa-align-left mr5-r"></i> Message text area</button>
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('checkbox')"><i class="fa fa-check-square-o mr5-r"></i> Checkboxes</button>
+				<button type="button" class="align-l large rgen-btn btn-block" ng-click="buildform('radio')"><i class="fa fa-dot-circle-o mr5-r"></i> Radio buttons</button>
+			</div>
+		</div>
+	</div>
+	
+	<div class="styleEditor-btn-wrp">
+		<div class="styleEditor-btn">
+			<div class="margin-bottom-5">
+				<button type="button" class="btn btn-block" ng-click="apply()"><span class="fui-check-inverted"></span> Apply Changes</button>
+			</div>
+			
+			<div class="sideButtons clearfix btn-group btn-group-xs">
+				<button type="button" class="btn" id="cloneElementButton"><span class="fa fa-clone"></span> Clone</button>
+				<button type="button" class="btn" ng-click="reset()"><i class="fa fa-refresh"></i> Reset</button>
+				<button type="button" class="btn" id="removeElementButton"><span class="fa fa-remove"></span> Remove</button>
+			</div>	
+		</div>
+	</div>
+	
+</div>
